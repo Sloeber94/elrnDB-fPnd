@@ -1,6 +1,6 @@
-# Fiat PANDA workshop manual (text version)
+# Fiat Panda workshop manual (text version)
 
-> Official eLearn workshop manual for the Fiat PANDA, English. Engines: 1.1, 1.2 8v, 1.3 JTD 16v. Production periods: T.T.. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
+> Official eLearn workshop manual for the Fiat Panda, English. Engines: 1.1, 1.2 8v, 1.3 JTD 16v. Production periods: T.T.. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
 
 Start with the guide, then follow links. Use the lookups to jump from a component, fuse or operation code to its pages.
 
