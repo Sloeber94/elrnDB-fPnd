@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="198.425" height="85.039" viewBox="0 0 198.425 85.039" overflow="visible" enable-background="new 0 0 198.425 85.039"
+	 xml:space="preserve">
+	
+		<g id="Livello_1">
+			<rect fill="#FFFFFF" width="198.425" height="85.039"/> 
+			<g>
+				<path fill="none" stroke="#000000" d="M44.823,73.375h-9.616c0,0-8.654-12.02-7.452-20.434s0.961-11.539,7.452-20.915h10.097"/>
+				<path fill="none" stroke="#000000" d="M139.201,32.027h9.615c0,0,8.654,12.02,7.453,20.434
+					c-1.203,8.414-0.963,11.539-7.453,20.914h-10.096"/>
+				<path fill="none" stroke="#000000" stroke-width="1.214" d="M123.4,27.164c14.104,0,25.537,11.434,25.537,25.538
+					c0,14.104-11.434,25.537-25.537,25.537H60.889c-14.103,0-25.536-11.434-25.536-25.537c0-14.104,11.434-25.537,25.536-25.537
+					L123.4,27.164z"/>
+				<path fill="none" stroke="#000000" stroke-width="1.0109" d="M124.875,73.967H60.534c-11.744,0-21.265-9.521-21.265-21.266
+					c0-11.745,9.521-21.265,21.265-21.265h63.222c11.744,0,21.264,9.521,21.264,21.265c0,11.744-9.52,21.266-21.264,21.266"/>
+				<path fill="none" stroke="#000000" stroke-width="0.8795" d="M122.242,34.2c10.217,0,18.5,8.283,18.5,18.501
+					c0,10.217-8.283,18.5-18.5,18.5l-60.194,0.002c-10.217,0-18.5-8.283-18.5-18.502S51.832,34.2,62.048,34.2H122.242z"/>
+				<rect x="62.649" y="64.131" fill="none" stroke="#000000" stroke-width="1.214" width="9.102" height="6.986"/> 
+				<rect x="87.793" y="64.131" fill="none" stroke="#000000" stroke-width="1.214" width="9.102" height="6.986"/> 
+				<rect x="112.369" y="64.131" fill="none" stroke="#000000" stroke-width="1.214" width="9.102" height="6.986"/> 
+				<g>
+					<rect x="55.699" y="59.123" fill="none" stroke="#000000" stroke-width="0.5" width="11.322" height="2.857"/> 
+					<polygon fill="none" stroke="#000000" stroke-width="0.5" points="51.412,58.959 71.473,58.959 71.473,54.506 67.076,54.506 
+						67.076,45.932 55.864,45.932 55.864,48.9 51.577,48.9 "/>
+				</g>
+				<g>
+					<rect x="86.107" y="59.123" fill="none" stroke="#000000" stroke-width="0.5" width="11.322" height="2.857"/> 
+					<polygon fill="none" stroke="#000000" stroke-width="0.5" points="81.82,58.959 101.881,58.959 101.881,54.506 97.484,54.506 
+						97.484,45.932 86.271,45.932 86.271,48.9 81.985,48.9 "/>
+				</g>
+				<g>
+					<rect x="116.768" y="59.123" fill="none" stroke="#000000" stroke-width="0.5" width="11.322" height="2.857"/> 
+					<polygon fill="none" stroke="#000000" stroke-width="0.5" points="112.48,58.959 132.541,58.959 132.541,54.506 
+						128.145,54.506 128.145,45.932 116.932,45.932 116.932,48.9 112.645,48.9 "/>
+				</g>
+				<rect x="79.999" y="9.149" fill="none" stroke="#000000" stroke-width="0.5" width="24.103" height="17.748"/> 
+				<rect x="84.636" y="21.458" fill="none" stroke="#000000" stroke-width="0.5" width="14.829" height="5.438"/> 
+				<rect x="84.636" y="14.531" fill="none" stroke="#000000" stroke-width="0.5" width="14.886" height="6.928"/> 
+				<rect x="89.33" y="9.149" fill="none" stroke="#000000" stroke-width="0.5" width="5.555" height="18.015"/> 
+			</g>
+			<g>
+				<text transform="matrix(1 0 0 1 56.25 57.25)"><tspan x="0" y="0" font-family="'Arial-BoldMT'" font-size="12">C</tspan></text>
+			</g>
+			<g>
+				<text transform="matrix(1 0 0 1 117.75 57.25)"><tspan x="0" y="0" font-family="'Arial-BoldMT'" font-size="12">A</tspan></text>
+			</g>
+		</g>
+	</svg>

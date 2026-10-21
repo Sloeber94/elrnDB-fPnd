@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="198.426" height="85.04" viewBox="0 0 198.426 85.04" overflow="visible" enable-background="new 0 0 198.426 85.04"
+	 xml:space="preserve">
+	
+		<g id="Livello_1">
+			<rect fill="#FFFFFF" width="198.426" height="85.04"/> 
+			<g>
+				
+					<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="1.7008" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+					M114.646,24.003c0.721,0.828,1.44,1.656,2.16,2.484l0,0l-0.036,14.867h5.437v16.273H107.23v4.355H87.863l-0.036-4.355H72.851
+					V41.354h5.436V26.487l0,0c0.72-0.828,1.44-1.656,2.196-2.484l0,0H114.646L114.646,24.003z"/>
+				
+					<path fill="none" stroke="#000000" stroke-width="1.7008" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+					M105.143,27.748c0-4.176,0-8.352-0.036-12.564c-5.147,0-10.295,0-15.443,0c0,4.212,0,8.424,0,12.672"/>
+				
+					<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="0.8504" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					82.931,32.859 96.287,32.859 96.287,50.536 82.931,50.536 82.931,32.859 "/>
+				
+					<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="0.8504" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					98.519,32.715 111.875,32.715 111.875,50.536 98.519,50.536 98.519,32.715 "/>
+				
+					<path fill="none" stroke="#000000" stroke-width="0.5669" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+					M83.147,23.896v4.392h28.835v-3.852 M90.167,26.308h14.724"/>
+			</g>
+			<g>
+				<path d="M90.086,44.236h-1.094v-4.147c-0.402,0.376-0.876,0.654-1.422,0.835v-1c0.286-0.094,0.598-0.272,0.934-0.534
+					c0.336-0.263,0.566-0.569,0.691-0.919h0.891V44.236z"/>
+			</g>
+			<g>
+				<path d="M106.633,43.221v1.016h-3.844c0.041-0.387,0.166-0.754,0.373-1.101c0.208-0.346,0.617-0.806,1.229-1.378
+					c0.493-0.463,0.795-0.776,0.906-0.941c0.15-0.228,0.226-0.452,0.226-0.675c0-0.245-0.065-0.435-0.196-0.566
+					s-0.312-0.198-0.542-0.198c-0.229,0-0.409,0.069-0.544,0.206c-0.135,0.138-0.213,0.365-0.233,0.685l-1.094-0.108
+					c0.064-0.602,0.27-1.034,0.613-1.296c0.344-0.262,0.773-0.393,1.289-0.393c0.564,0,1.009,0.153,1.332,0.459
+					c0.322,0.306,0.484,0.687,0.484,1.142c0,0.259-0.046,0.505-0.139,0.739c-0.092,0.233-0.238,0.479-0.438,0.735
+					c-0.133,0.17-0.373,0.414-0.722,0.733c-0.348,0.319-0.568,0.531-0.66,0.636c-0.093,0.104-0.168,0.206-0.225,0.306H106.633z"/>
+			</g>
+		</g>
+	</svg>

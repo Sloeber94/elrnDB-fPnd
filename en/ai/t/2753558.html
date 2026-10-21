@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7020 ABS - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.3 JTD 16v; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7020 ABS &gt; E7020 ABS - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751625.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="169002743.html">E7020 ABS</a> › <span>E7020 ABS - Functional description</span></nav>
+<h1><span class="code">E7020</span> ABS - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7020 ABS &gt; E7020 ABS - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.3 JTD 16v; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753558">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753558</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.3 JTD 16v; all production periods</p><h3>Functional description</h3><p>The ABS control unit 
+                              <strong>M050 receives a
+              direct battery supply at pins 2 and 3 and an ignition-controlled
+              supply at pin 18;</strong>
+                                the lines are protected respectively by fuses
+              F04 and F42, both located in the engine compartment junction unit 
+                              <strong>B001.</strong></p><p>The brake pedal switch 
+                              <strong>I030 comprises
+              two internal switches, one normally open (N.A.) type and one normally
+              closed (N.C.) type.</strong></p><p>In case of braking:</p><ul><li>the ABS control unit <strong>M050 (at pin 20) and the body
+              computer node M001 (at pin 5 connector B) receive a positive signal,
+              referred to the line protected by fuse F37 located in the junction
+              unit under the dashboard B002;</strong></li><li>at the engine management control unit <strong>M010, at pin
+              68 connector B, the supply line protected by fuse F42, located in
+              the junction unit under the dashboard B002, is interrupted (see
+              
+                                     See E5050  DIESEL ENGINES ELECTRONIC MANAGEMENT 
+                                     ).</strong></li></ul><p>The body computer node 
+                              <strong>M001 receives
+              the vehicle speed signal, at pin 18 of connector C, supplied by
+              the ABS control unit which processes the data taken from the ABS
+              wheel sensors.</strong></p><p>The ABS control unit M050:</p><ul><li>from pins 16, 9 supplies the left <strong>K070 and right K071
+              front wheel sensors;</strong></li><li>from pins 6, 19 supplies the left <strong>K075 and right K076
+              rear wheel sensors;</strong></li><li>from pins 5, 10 receives the signals supplied by the left <strong>K070
+              and right K071 front wheel sensors;</strong></li><li>from pins 17, 8 receives the signals supplied by the left <strong>K075
+              and right K076 rear wheel sensors.</strong></li></ul><p>The ABS control unit 
+                              <strong>M050 is connected
+              to earth C012 at pins 1 and 4, while pin 11 is dedicated to the
+              K line set aside for diagnosis 
+                                 SeeE8010DIAGNOSTIC MULTIPLE CONNECTOR
+                                  .</strong></p><p>The body computer node, in the case of a
+              fault signal received from the ABS control unit, via the B-CAN switches
+              on the relevant warning light present on the instrument panel (for further
+              details 
+                              <a href="2751520.html">E4010 INSTRUMENT PANEL - Description</a>
+                               ).</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The D001 junction is housed, in
+              the interior compartment, at the bottom of the front right pillar,
+              near the door cable pass, passenger side.</p></aside></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="2751520.html">E4010 INSTRUMENT PANEL - Description</a> <span class="meta">system description · engines: 1.1, 1.2 8v; all production periods</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

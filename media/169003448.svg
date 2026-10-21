@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="198.425" height="113.386" viewBox="0 0 198.425 113.386" overflow="visible" enable-background="new 0 0 198.425 113.386"
+	 xml:space="preserve">
+	
+		<g id="Livello_1">
+			<rect fill="#FFFFFF" width="198.425" height="113.386"/> 
+			<g>
+				<circle fill="none" stroke="#000000" stroke-width="1.4187" cx="108.412" cy="57.356" r="17.388"/> 
+				<path fill="none" stroke="#000000" stroke-width="1.4187" d="M64.547,27.429l41.425-7.554c22.191,0,40.182,16.78,40.182,37.483
+					c0,20.699-17.99,37.479-40.182,37.479l-41.133-7.365L64.547,27.429z"/>
+				<path fill="none" stroke="#000000" stroke-width="1.4187" d="M64.148,27.412L48.701,45.539c0,0,15.725,2.687,15.937,11.545
+					c0.213,8.858-15.944,13.04-15.944,13.04"/>
+				<line fill="none" stroke="#000000" stroke-width="1.4187" x1="64.464" y1="87.787" x2="48.701" y2="69.972"/>
+				<g>
+					<path fill="none" stroke="#000000" stroke-width="1.4187" d="M52.634,40.14l-13.596-4.729c0,0-17.852,7.448-3.192,18.798
+						c0,0,2.601,2.956,3.665-1.892c0,0,2.246,0.591,2.246,2.601c0,0,2.956,0.473,3.074-7.921c0,0,2.798-2.089,3.706-1.458"/>
+					<path fill="none" stroke="#000000" stroke-width="1.4187" d="M46.241,38.345c0,0-13.274-3.368-10.995,15.257"/>
+					<path fill="none" stroke="#000000" stroke-width="1.4187" d="M51.195,42.506c0,0-11.79-4.558-11.492,10.204"/>
+				</g>
+				<g>
+					<path fill="none" stroke="#000000" stroke-width="1.4187" d="M52.634,75.255l-13.596,4.729c0,0-17.852-7.447-3.192-18.797
+						c0,0,2.601-2.956,3.665,1.891c0,0,2.246-0.59,2.246-2.601c0,0,2.956-0.473,3.074,7.921c0,0,2.798,2.09,3.706,1.458"/>
+					<path fill="none" stroke="#000000" stroke-width="1.4187" d="M46.241,77.05c0,0-13.274,3.369-10.995-15.256"/>
+					<path fill="none" stroke="#000000" stroke-width="1.4187" d="M51.195,72.889c0,0-11.79,4.56-11.492-10.202"/>
+				</g>
+			</g>
+		</g>
+	</svg>

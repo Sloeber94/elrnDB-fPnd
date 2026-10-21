@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E6020 AIR CONDITIONING - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.1, 1.2 8v; all production periods; only with equipment: Automatic Air Conditioning. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E60 Climate control system &gt; E6020 AIR CONDITIONING &gt; E6020 AIR CONDITIONING - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751592.html">E60 Climate control system</a> › <a href="2751597.html">E6020 AIR CONDITIONING</a> › <span>E6020 AIR CONDITIONING - Functional description</span></nav>
+<h1><span class="code">E6020</span> AIR CONDITIONING - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E60 Climate control system &gt; E6020 AIR CONDITIONING &gt; E6020 AIR CONDITIONING - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.1, 1.2 8v; all production periods; only with equipment: Automatic Air Conditioning</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753549">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753549</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.1, 1.2 8v; all production periods; only with equipment: Automatic Air Conditioning</p><h3>Functional description</h3><p>The climate control unit 
+                              <strong>M070 receives
+              an ignition-dependent supply at pin 2 of connector B along the line
+              protected by the fuse F49, located in the junction unit under the
+              dashboard B002, and a direct battery supply at pin 1 of connector
+              B along the line protected by fuse F39 located in the body computer
+              node M001.</strong></p><p>The body computer node 
+                              <strong>M001, from pin
+              9 connector C, manages the operation of relay T08, which supplies
+              the direct battery supply to the electric motor of the fan N085.</strong></p><p>The relay, excluded during engine starting,
+              is always energised, as it is connected directly to earth 
+                              <strong>C011
+              from pin 49 connector D of the engine compartment junction unit
+              B001.</strong></p><p>The vehicle interior air fan N085, is connected
+              to earth C016 at pin 3. The climate control unit M070 manages the
+              various speeds of the fan N085 from pins 7, 8 connector B.</p><p>The control unit also provides the supply
+              and earth to all the actuators and sensors connected to it.</p><p>From connector A, the climate control unit M070:</p><ul><li>from pins 5, 6 provides the supply and earth reference
+              to the actuator for the external air / recirculation flap <strong>N082;</strong></li><li>from pins 9, 10, provides the supply and earth reference
+              to the actuator for the air mixer flap <strong>N081;</strong></li><li>from pins 11, 12 provides the supply and earth reference
+              to the actuator for the air distribution flap <strong>N080;</strong></li><li>at pin 2 provides the enablement to switch on the air
+              mixer flap actuator <strong>N081 and the air distribution flap actuator
+              N080;</strong></li><li>at pins 1, 7 receives signals from the air mixer flap
+              actuator <strong>N081 and the air distribution flap actuator N080.</strong></li><li>from pin 8 sends the compressor engagement signal to the
+              engine control unit <strong>M010 (
+                                     See E6021  COMPRESSOR ENGAGEMENT 
+                                     ).</strong></li></ul><p>From connector B, the climate control unit M070:</p><ul><li>from pin 5 supplies the anti-frost sensor <strong>K086, the
+              bottom mixed air temperature sensor K087 and the top mixed air temperature
+              sensor K088;</strong></li><li>at pin 6 receives the signal supplied by the anti-frost
+              sensor <strong>K086;</strong></li><li>at pin 11 receives the signal supplied by the bottom mixed
+              air temperature sensor <strong>K087;</strong></li><li>at pin 12 receives the signal supplied by the top mixed
+              air temperature sensor <strong>K088.</strong></li></ul><p>From pins 9 and 10 of connector B, the climate
+              control unit communicates via the CAN network with the body computer 
+              
+                              <strong>M001, supplying all the information concerning the status of
+              the air conditioning system 
+                                 See
+		E1050
+		CAN CONNECTION LINES
+                                  .</strong>
+                               
+              Via the CAN line, the climate control unit 
+                              <strong>M070 obtains the external
+              air temperature signal, supplied by the sensor mounted on the door
+              mirror P060 (for further details see 
+                                 See
+		E3032
+		DOOR MIRROR ADJUSTMENT
+                                  ).</strong></p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7020 ABS - FUNCTIONAL DESCRIPTION · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.1, 1.2 8v; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7020 ABS &gt; E7020 ABS - FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751625.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="169002444.html">E7020 ABS</a> › <span>E7020 ABS - FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E7020</span> ABS - FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7020 ABS &gt; E7020 ABS - FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.1, 1.2 8v; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/169002446">https://sloeber94.github.io/elrnDB-fPnd/en/#/169002446</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.1, 1.2 8v; all production periods</p><h2>Operational description</h2><p>The ABS control unit <strong>M050</strong> receives a direct battery supply at pins 2 and 3 and an ignition-operated supply at pin 18; the lines are protected by fuses F04 and F42 <strong>,</strong> both located in the engine compartment junction unit <strong>B001</strong>.</p><p>The brake pedal switch <strong>I030</strong> contact closed signal reaches the ABS control unit <strong>M050</strong> (pin 20) and the body computer node <strong>M001</strong> (pin 5 connector B) simultaneously.</p><p>The ABS control unit M050:</p><ul><li>from pins 16, 9 supplies the left front wheel sensors <strong>K070</strong> and the right ones <strong>K071</strong>;</li><li>from pins 6, 19 supplies the left rear wheel sensors <strong>K075</strong> and the right ones <strong>K076</strong>;</li><li>from pins 1, 10 receives the signals supplied by the left front wheel sensors <strong>K070</strong> and the right ones <strong>K071</strong>;</li><li>from pins 17, 8 receives the signals supplied by the left rear wheel sensors <strong>K075</strong> and the right ones <strong>K076</strong>;</li></ul><p>The body computer node <strong>M001</strong> receives the signal at pin 18 connector C and communicates, via the serial line, with the ABS control unit <strong>M050</strong> from pins 14 and 18 of connector D.</p><p>The ABS control unit <strong>M050</strong> is connected to earth <strong>C012</strong> at pin 1 and pin 4, whilst pin 11 is dedicated to the K line for the fault diagnosis.</p><p><a href="2751663.html">See E8010 DIAGNOSTIC MULTIPLE CONNECTOR</a></p><p>.</p><p>If a fault signal is received from the ABS control unit, the body computer node lights up the warning light in the instrument panel via the CAN (for more details</p><p><a href="2751519.html">See E4010 INSTRUMENT PANEL</a></p><p>).</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Coupling D001 is housed, in the passenger compartment, in the lower part of the right front pillar, near the door cable loom, passenger side.</p></aside></section>
+<h2>Topics linked from this page (2)</h2><ul><li><a href="2751519.html">E4010 INSTRUMENT PANEL</a> <span class="meta">chapter (index of subtopics) · engines: 1.1, 1.2 8v; all production periods</span></li><li><a href="2751663.html">E8010 DIAGNOSTIC MULTIPLE CONNECTOR</a> <span class="meta">chapter (index of subtopics) · all engines; all production periods; only with equipment: Smart gearbox</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

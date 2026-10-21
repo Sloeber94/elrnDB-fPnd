@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="198.426" height="85.04" viewBox="0 0 198.426 85.04" overflow="visible" enable-background="new 0 0 198.426 85.04"
+	 xml:space="preserve">
+	
+		<g id="Livello_2">
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M86.783,48.647
+				v8.374c0,0.779,0.632,1.411,1.411,1.411h6.549"/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M105.522,58.432
+				h6.881c0.779,0,1.41-0.631,1.41-1.411v-8.705"/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M113.813,36.044
+				v-8.54c0-0.779-0.631-1.41-1.41-1.41h-6.881"/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M94.909,26.095
+				h-6.715c-0.779,0-1.411,0.631-1.411,1.41v9.037"/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" points="
+				113.979,36.376 118.125,36.376 118.125,48.482 113.979,48.482 "/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" points="
+				86.783,48.482 82.305,48.482 82.305,36.376 86.783,36.376 "/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" points="
+				95.075,26.095 95.075,20.788 105.522,20.788 105.522,26.095 "/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M105.522,58.432"/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M105.522,26.095"/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" points="
+				105.522,58.432 105.522,63.573 95.075,63.573 95.075,58.598 "/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M95.075,26.095"/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M95.075,58.598"/>
+			<path fill="none" stroke="#000000" stroke-width="0.8461" stroke-linecap="round" stroke-linejoin="round" d="M120.281,28.001"/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" points="
+				91.675,26.26 91.675,29.494 108.756,29.494 108.756,26.178 "/>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" x1="95.24" y1="25.68" x2="95.24" y2="29.328"/>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" x1="105.522" y1="25.265" x2="105.522" y2="29.328"/>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" x1="95.406" y1="26.178" x2="104.941" y2="26.178"/>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" x1="95.572" y1="27.836" x2="105.273" y2="27.836"/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" points="
+				91.592,58.183 91.592,54.701 108.922,54.701 108.922,58.267 "/>
+			<polyline fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" points="
+				95.157,54.866 95.157,58.1 105.439,58.1 105.439,55.115 "/>
+			
+				<line fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" x1="95.489" y1="56.608" x2="105.273" y2="56.608"/>
+			
+				<rect x="88.441" y="35.713" fill="none" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" width="10.863" height="11.774"/> 
+			
+				<rect x="101.397" y="35.713" stroke="#000000" stroke-width="0.5641" stroke-linecap="round" stroke-linejoin="round" width="10.862" height="11.774"/> 
+			<path d="M95.049,45.912h-1.122v-5.958h-1.958v-0.836c1.361-0.095,1.922-0.227,2.256-1.6h0.824V45.912z"/>
+			<rect fill="none" width="198.426" height="85.04"/> 
+		</g>
+	</svg>

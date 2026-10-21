@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E3040 CENTRAL LOCKING - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E30 Electrically activated devices &gt; E3040 CENTRAL LOCKING &gt; E3040 CENTRAL LOCKING - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751460.html">E30 Electrically activated devices</a> › <a href="2751485.html">E3040 CENTRAL LOCKING</a> › <span>E3040 CENTRAL LOCKING - Functional description</span></nav>
+<h1><span class="code">E3040</span> CENTRAL LOCKING - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E30 Electrically activated devices &gt; E3040 CENTRAL LOCKING &gt; E3040 CENTRAL LOCKING - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753522">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753522</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Functional description</h3><p>The central locking function is entirely managed by the body
+              computer node 
+                              <strong>M001 which controls the locking/unlocking of the
+              doors depending on the command received by the remote control (where
+              available) or from the driver&#x27;s front door lock N050.</strong></p><p>To lock the doors, the body computer node:</p><ul><li>from pin 12 connector H receives the negative door locking
+              signal (with reference to earth <strong>C020 connector B) supplied by
+              the front driver&#x27;s door lock N050 (pin 6);</strong></li><li>from pin 7 connector M supplies the electric motors for
+              the front door locks <strong>N050 and N051;</strong></li><li>from pin 10 connector E supplies the electric motors for
+              the rear door locks <strong>N055 and N056.</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Earth 
+                                 <strong>C020 is fastened to the
+              passenger compartment floor and is located near the right front
+              wheel arch (footwell area).</strong></p></aside><p>To unlock the doors, the body computer node:</p><ul><li>from pin 13 connector H receives the negative door unlocking
+              signal (with reference to earth <strong>C020 connector B) supplied by
+              the front driver&#x27;s door lock N050 (pin 3);</strong></li><li>from pin 6 connector M supplies the electric motors for
+              the front door locks <strong>N050 and N051;</strong></li><li>from pin 9 connector E supplies the electric motors for
+              the rear doors <strong>N055 and N056.</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The power supply for the electric
+              motors for each individual door lock (front, rear and boot) is protected
+              by fuse 
+                                 <strong>F38;</strong>
+                                   the door locking/unlocking logic is managed
+              by a relay incorporated in the body computer node.</p></aside><p>The body computer supplies the electric
+              motor for the boot lock 
+                              <strong>N057 from pin 2 connector E.</strong>
+                                The
+              command for opening the tailgate arrives from switch 
+                              <strong>I033 at
+              pin 5 connector G of the body computer node M001 (see wiring diagram
+              E2510).</strong></p><p>The body computer node also checks that
+              each individual door is correctly shut by means of the signals supplied
+              by the internal (normally open type) switches for the door locks.</p><p>More precisely, one door is considered as open (or not properly shut) when the body computer:</p><ul><li>receives a negative signal, from pin 23 connector H, (with
+              reference to earth <strong>C020 connector B), coming from lock N050 (driver&#x27;s
+              front door check);</strong></li><li>receives a negative signal, from pin 21 connector H, (with
+              reference to earth <strong>C020 connector B) coming from lock N051 (passenger
+              front door check);</strong></li><li>receives a negative signal, from pin 4 connector G, (with
+              reference to earth <strong>C020 connector A), coming from lock N056 (right
+              rear door check);</strong></li><li>receives a negative signal, from pin 15 connector G, (with
+              reference to earth <strong>C030), coming from lock N055 (left rear door
+              check).</strong></li><li>receives a negative signal, from pin 13 connector G, (with
+              reference to earth <strong>C030), coming from switch I033 (tailgate check, 
+              
+                                     See E2510  COURTESY LIGHTS 
+                                     ).</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Door couplings 
+                                 <strong>D030 and D031
+              are housed in the lower part of the front pillar (right or left
+              depending on the coupling involved), near the door cable duct.</strong></p></aside></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

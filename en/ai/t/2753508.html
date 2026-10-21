@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 INTERIOR LIGHTING &gt; E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS &gt; E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="169002283.html">E20 INTERIOR LIGHTING</a> › <a href="169002368.html">E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS</a> › <span>E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS - Functional description</span></nav>
+<h1><span class="code">E2020</span> DIRECTION INDICATORS / HAZARD WARNING LIGHTS - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 INTERIOR LIGHTING &gt; E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS &gt; E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753508">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753508</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Functional description</h3><p>The turn signal activation command is issued by stalk unit 
+                              <strong>H005,
+              by turning lever group A to position 1 (left turn signal) or position
+              2 (right turn signal).</strong></p><p>Body computer node M001:</p><ul><li>receives a negative signal (relating to earth <strong>C020
+              connector B) at pin 8 connector P (left side) or pin 9 (right side)
+              connector P.</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Earth C020 is secured to the floor
+              and positioned near the right front wheel arch (footwell area).</p></aside><p>Once it receives the signal, it turns on the side lights:</p><ul><li>from pin 10 and 11 connector C, supplies the turn signals
+              housed in front light  clusters <strong>F010 and F011;</strong></li><li>from pins 15 and 18 connector F, supplies the turn signals
+              housed in tail-lights <strong>F030 and F031;</strong></li><li>from  pins 16 and 17 connector F, supplies the turn signals
+              housed in side indicators <strong>F020 and F021.</strong></li></ul><p>Tail-lights 
+                              <strong>F030 and F031 and left side
+              turn signal F020 refer to earth C030 secured to the left rear wheel
+              arch (passenger compartment interior).</strong></p><p>The hazard warning lights are turned on
+              by a key located in control panel  
+                              <strong>H090.</strong></p><p>Body computer node M001:</p><ul><li>receives a negative signal  ( in relation to earth <strong>C020
+              connector B) at pin 4 connector P.</strong></li><li>from pins 11and 11connector C, it supplies the turn signals
+               housed in front light clusters <strong>F010 and F011;</strong></li><li>from  pins 15 and 18 connector F , it supplies the turn
+              signals housed in tail-lights <strong>F030 and F031;</strong></li><li>from pins 16 and 17 connector F,  it supplies the turn
+              signals housed in side indicators <strong>F020 and F020.</strong></li><li>from pin 3 connector P, it manages the intermittent function
+              of the led for visual warning light indication built into control
+              panel <strong>H090.</strong></li></ul><p>The body computer node monitors correct operation of the light system and indicates faults by turning on the light failure warning light located on instrument panel E050 under the following conditions:</p><ul><li>circuit open;</li><li>short circuit to earth;</li><li>short circuit to +battery.</li></ul><p>From pins 35, 36 connector  I,  the body
+              computer comunicates via the CAN network wiht instrument panel 
+                              <strong>E050
+              (for more details see
+                                 See
+		E1050
+		CAN CONNECTION LINES
+                                  ) and
+              controls the relevant warning lights.</strong></p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

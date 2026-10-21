@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E4010 INSTRUMENT PANEL - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.2 8v; all production periods; only with equipment: Smart gearbox. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E40 Instrument panel &gt; E4010 INSTRUMENT PANEL &gt; E4010 INSTRUMENT PANEL - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751518.html">E40 Instrument panel</a> › <a href="2751523.html">E4010 INSTRUMENT PANEL</a> › <span>E4010 INSTRUMENT PANEL - Functional description</span></nav>
+<h1><span class="code">E4010</span> INSTRUMENT PANEL - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E40 Instrument panel &gt; E4010 INSTRUMENT PANEL &gt; E4010 INSTRUMENT PANEL - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.2 8v; all production periods; only with equipment: Smart gearbox</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753531">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753531</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.2 8v; all production periods; only with equipment: Smart gearbox</p><h3>Functional description</h3><p>The instrument panel comprises two separate
+              connectors, each of which implements the following functions.</p><p>Connector A:</p><ul><li>pin 1: ignition-dependent supply, provided by the body
+              computer node <strong>M001;</strong> the line is protected by the fuse F51,
+              housed in the junction unit under the instrument panel<strong>See E1010  SUPPLY</strong>;</li><li>pin 3: direct battery supply, provided by the body computer
+              node <strong>M001;</strong> the line is protected by the fuse F01, housed
+              in the engine compartment junction unit <strong>B001  
+                                     See E1010  SUPPLY 
+                                     ;</strong></li><li>pin 2: reference to earth <strong>C020 connector B;</strong></li><li>pin 7: receives the supply for the headlamp adjustment
+              controls<a href="2751502.html">E3080 HEADLAMP AGLINMENT CORRECTOR - Description</a>;
+              the line is protected by the fuse F13, located in the body computer
+              node, operated by a relay integrated in the control unit;</li><li>pin 6: sends the command to the headlamp adjustment motors<a href="2751502.html">E3080 HEADLAMP AGLINMENT CORRECTOR - Description</a>;</li><li>pin 4: sends the signal for the Trip computer function<a href="2751532.html">E4080 TRIP COMPUTER - Description</a>;</li><li>pins 8, 9: connection to the CAN network<strong>See E1050  CAN CONNECTION LINES</strong>;</li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Earth C020 is located on the passenger
+              compartment floor and located near the right front wheel arch (footwell).</p></aside><p>Connector B:</p><ul><li>pin 10: engine system failure warning light management<strong>See E5030  PETROL ENGINE ELECTRONIC MANAGEMENT</strong></li><li>pin 13: management of Air Bag system fault warning light<a href="2751643.html">E7030 AIRBAG - Description</a>;</li><li>pin 14: management of passenger Air Bag deactivation warning
+              light<a href="2751643.html">E7030 AIRBAG - Description</a>;</li><li>pins 17, 18: connection with the external air temperature
+              sensor, contained in the left rearview mirror <strong>P060  
+                                     See E3032  DOOR MIRROR ADJUSTMENT 
+                                     ;</strong></li></ul><p>The warning lights (side lights, dipped
+              beam, main beam, etc.) are managed directly by the instrument panel 
+                              <strong>E050,
+              in accordance with the data received via the B-CAN from the body
+              computer node M001 and via the C-CAN (for more details</strong><strong>See E1050  CAN CONNECTION LINES</strong></p><p>The body computer node, via the B-CAN, also sends:</p><ul><li>the vehicle speed signal, for the management of the speedometer
+              indicator;</li><li>the signal coming from the fuel pump <strong>N040, for managing
+              the fuel gauge;</strong></li><li>the signal coming from the switch <strong>I040, for displaying
+              the &#x27;handbrake on&#x27; warning light;</strong></li><li>the signal coming from the sensor <strong>K025, for displaying
+              the &#x27;low brake fluid level&#x27; warning light;</strong></li></ul><p>The engine management control unit 
+                              <strong>M010
+              communicates to the body computer node, via the C-CAN, the signals
+              supplied by the engine rpm sensor K046 and the water temperature
+              sensor K036.</strong>
+                                These signals are then sent to the instrument
+              panel 
+                              <strong>E050, for managing the rev counter and water temperature
+              gauge.</strong></p></section>
+<h2>Topics linked from this page (3)</h2><ul><li><a href="2751502.html">E3080 HEADLAMP AGLINMENT CORRECTOR - Description</a> <span class="meta">system description · all engines; all production periods</span></li><li><a href="2751532.html">E4080 TRIP COMPUTER - Description</a> <span class="meta">system description · engines: 1.1, 1.2 8v; all production periods</span></li><li><a href="2751643.html">E7030 AIRBAG - Description</a> <span class="meta">system description · all engines; all production periods</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

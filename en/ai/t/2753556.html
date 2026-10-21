@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7010 CODE - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7010 CODE &gt; E7010 CODE - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751625.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="2751626.html">E7010 CODE</a> › <span>E7010 CODE - Functional description</span></nav>
+<h1><span class="code">E7010</span> CODE - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7010 CODE &gt; E7010 CODE - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753556">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753556</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Functional description</h3><p>Via the aerial for the Fiat-CODE system 
+                              <strong>P091, the body computer
+              node M001 receives, at pins 10 and 19 of connector H, the code of
+              the inserted key, and checks that it is valid by comparing it with
+              those in its memory.</strong></p></section><section class="block"><p class="applies">Applies to: engines: 1.1, 1.2 8v; all production periods</p><h3>Functional description</h3><p>If the code is correct, the body computer
+              node 
+                              <strong>M001, via the CAN network, enables at pins 20 and 29 of
+              connector B the control unit M010 to start the engine when required
+              and, still via the B CAN network, controls the switching on of the
+              warning lights on the instrument panel E050.</strong></p></section><section class="block"><p class="applies">Applies to: engines: 1.2 8v; all production periods</p><h3>Functional description</h3><p>If the code is correct, the body computer
+              node 
+                              <strong>M001, via the C CAN network, enables at pins 36 and 52 of
+              connector B the control unit M010 to start the engine when required
+              and, still via the B-CAN network, controls the switching on of the
+              warning lights on the instrument panel E050.</strong>
+                                The engine management
+              control unit 
+                              <strong>M010 (pin 11 connector B) and the body computer
+              node M001 (pin 13 connector D) are connected via specific serial
+              line &#x27;W&#x27;;</strong>
+                                this line has a CODE system recovery function if
+              there are problems in the C-CAN line.</p></section><section class="block"><p class="applies">Applies to: engines: 1.3 JTD 16v; all production periods</p><h3>Functional description</h3><p>If the code is correct, the body computer
+              node 
+                              <strong>M001, via the B-CAN , enables at pins 58 and 59 of connector
+              B the control unit M010 to start the engine when required and, still via
+              the B-CAN, controls the switching on of the warning lights on the
+              instrument panel E050.</strong>
+                                The engine management control unit 
+                              <strong>M010
+              (pin 66 connector B) and the body computer node M001 (pin 13 connector
+              D) are connected via specific serial line &#x27;W&#x27;;</strong>
+                                this line has
+              a CODE system recovery function if there are problems in the B-CAN
+              line.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Functional description</h3><p>The system is only activated
+              if the ignition is on; the signal reaches the body computer node
+              at pin 1, connector L (for further details 
+                              <strong>See E1010  SUPPLY</strong>
+                               ).</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

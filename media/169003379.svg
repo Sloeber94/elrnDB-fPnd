@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="198.425" height="85.039" viewBox="0 0 198.425 85.039" overflow="visible" enable-background="new 0 0 198.425 85.039"
+	 xml:space="preserve">
+	
+		<g id="Livello_1">
+			<rect fill="#FFFFFF" width="198.425" height="85.039"/> 
+			<g>
+				
+					<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="1.7008" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					61.436,22.391 145.136,22.391 145.136,57.707 61.436,57.707 61.436,22.391 "/>
+				
+					<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="0.8504" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					72.128,33.191 85.484,33.191 85.484,46.583 72.128,46.583 72.128,33.191 "/>
+				
+					<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="0.8504" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					88.472,33.191 101.828,33.191 101.828,46.583 88.472,46.583 88.472,33.191 "/>
+				
+					<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="0.8504" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					105.248,33.191 118.604,33.191 118.604,46.583 105.248,46.583 105.248,33.191 "/>
+				
+					<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#000000" stroke-width="0.8504" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+					121.591,33.191 134.949,33.191 134.949,46.583 121.591,46.583 121.591,33.191 "/>
+			</g>
+			<g>
+				<path d="M80.283,43.461h-1.641v-6.222c-0.601,0.565-1.31,0.982-2.125,1.253v-1.5c0.429-0.141,0.895-0.407,1.397-0.799
+					c0.503-0.393,0.848-0.85,1.035-1.373h1.333V43.461z"/>
+			</g>
+			<g>
+				<path d="M128.359,43.461v-1.734h-3.516v-1.432l3.727-5.459h1.383v5.453h1.063v1.438h-1.063v1.734H128.359z M128.359,40.289
+					v-2.932l-1.982,2.932H128.359z"/>
+			</g>
+		</g>
+	</svg>

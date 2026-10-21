@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="198.425" height="85.039" viewBox="0 0 198.425 85.039" overflow="visible" enable-background="new 0 0 198.425 85.039"
+	 xml:space="preserve">
+	
+		<g id="Livello_2">
+			<rect fill="#FFFFFF" width="198.425" height="85.039"/> 
+			<polygon fill="none" stroke="#000000" points="88.254,17.478 83.004,17.478 83.004,61.978 117.004,61.978 117.004,17.228 
+				112.379,17.228 112.379,28.603 88.004,28.603 "/>
+			<rect x="100.526" y="30.946" fill="none" stroke="#000000" width="11.625" height="24.125"/> 
+			<circle fill="none" stroke="#000000" cx="92.786" cy="42.706" r="3.875"/> 
+			<circle fill="none" stroke="#000000" cx="106.338" cy="42.706" r="3.875"/> 
+			<line fill="none" stroke="#000000" stroke-width="0.5" x1="92.629" y1="21.103" x2="92.629" y2="28.728"/>
+			<line fill="none" stroke="#000000" stroke-width="0.5" x1="107.379" y1="21.103" x2="107.379" y2="28.978"/>
+			<rect x="89.504" y="12.853" fill="none" stroke="#000000" stroke-width="0.5" width="21.542" height="8.375"/> 
+			<rect x="82.754" y="11.478" fill="none" stroke="#000000" stroke-width="0.5" width="4.292" height="5.375"/> 
+			<rect x="113.254" y="11.665" fill="none" stroke="#000000" stroke-width="0.5" width="4" height="5.375"/> 
+			<g>
+				<path d="M124.411,64.415h-1.094v-4.147c-0.402,0.376-0.876,0.655-1.422,0.835v-1c0.286-0.094,0.598-0.272,0.934-0.535
+					c0.336-0.262,0.566-0.568,0.691-0.918h0.891V64.415z"/>
+			</g>
+			<rect x="86.973" y="30.946" fill="none" stroke="#000000" width="11.625" height="24.125"/> 
+			<g>
+				<path d="M79.176,63.399v1.016h-3.844c0.042-0.387,0.166-0.754,0.373-1.1c0.208-0.347,0.617-0.807,1.229-1.379
+					c0.493-0.463,0.795-0.776,0.906-0.941c0.15-0.228,0.226-0.452,0.226-0.675c0-0.245-0.065-0.435-0.196-0.566
+					s-0.312-0.198-0.542-0.198c-0.228,0-0.409,0.068-0.544,0.206s-0.213,0.366-0.233,0.685l-1.094-0.109
+					c0.065-0.602,0.27-1.033,0.613-1.295s0.773-0.393,1.289-0.393c0.565,0,1.009,0.153,1.332,0.459
+					c0.323,0.306,0.484,0.687,0.484,1.142c0,0.259-0.046,0.505-0.139,0.739c-0.092,0.234-0.238,0.479-0.438,0.735
+					c-0.133,0.17-0.373,0.415-0.722,0.733c-0.348,0.319-0.568,0.531-0.661,0.636s-0.167,0.206-0.224,0.306H79.176z"/>
+			</g>
+			<line stroke="#000000" stroke-width="0.75" x1="93.629" y1="43.603" x2="80.129" y2="58.353"/>
+			<g>
+				<line stroke="#FFFFFF" stroke-width="0.75" x1="93.879" y1="44.228" x2="80.379" y2="58.978"/>
+			</g>
+			<line stroke="#000000" stroke-width="0.75" x1="107.129" y1="43.103" x2="121.254" y2="58.853"/>
+			<line stroke="#FFFFFF" stroke-width="0.75" x1="106.62" y1="43.497" x2="121.264" y2="59.708"/>
+		</g>
+	</svg>

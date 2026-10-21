@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2510 COURTESY LIGHTS - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods; only with equipment: Door lock. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E25 Interior lighting &gt; E2510 COURTESY LIGHTS &gt; E2510 COURTESY LIGHTS - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751447.html">E25 Interior lighting</a> › <a href="2751452.html">E2510 COURTESY LIGHTS</a> › <span>E2510 COURTESY LIGHTS - Functional description</span></nav>
+<h1><span class="code">E2510</span> COURTESY LIGHTS - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E25 Interior lighting &gt; E2510 COURTESY LIGHTS &gt; E2510 COURTESY LIGHTS - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods; only with equipment: Door lock</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753514">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753514</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods; only with equipment: Door lock</p><h3>Functional description</h3><p>The front courtesy light G010 is supplied by the body computer node M001 (pin 10 connector F). The internal switch A can be turned to three positions:</p><ul><li>position 0: the switching on or off of the front courtesy
+              light is managed by the body computer node;</li><li>position 1: the front courtesy light is always off;</li><li>position 2: the front courtesy light is always on.</li></ul><p>The body computer node switches the front courtesy light on automatically in relation to the door signals coming from the door locks N050, N051, N055 and N056 in the following conditions:</p><ul><li>if the negative signal (with reference to earth <strong>C020
+              connector B) indicating the left front door opening is received
+              at pin 23 connector H;</strong></li><li>if the negative signal (with reference to earth <strong>C020
+              connector B) indicating the right front door opening is received
+              at pin 21 connector H;</strong></li><li>if the negative signal (with reference to earth <strong>C030)
+              indicating the left rear door opening is received at pin 15 connector
+              G;</strong></li><li>if the negative signal (with reference to earth <strong>C020
+              connector A) indicating the right rear door opening is received
+              at pin 4 connector G;</strong></li><li>if the negative signal (with reference to earth <strong>C020
+              connector B) indicating the unlocking of the doors (central unlocking)
+              is received at pin 13 connector H;</strong></li><li>if the negative signal (with reference to earth <strong>C030)
+              indicating the operation of the inertia switch I050 is received
+              at pin 14 connector G.</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The connection between the body
+              computer node and the front locks N050 and N051 passes through the
+              door couplings D030 connector A and D031 connector A.  Both are
+              housed, in the passenger compartment area, in the lower part of
+              the left or right front pillar (depending on the coupling involved),
+              near the door cable duct. Door coupling D030 is located behind the
+              body computer node.</p></aside><p>The body computer node switches the front courtesy light off automatically in the following conditions:</p><ul><li>if the door locking signal (with reference to earth <strong>C020
+              connector B) (central locking) is received at pin 12 connector H;</strong></li><li>if the negative signal (with reference to earth <strong>C030),
+              indicating the reactivation of the inertia switch I050, is no longer
+              received at pin 14 connector G.</strong></li></ul><p>The body computer node also manages the switching on/off of the boot courtesy light G040. From connector G, the body computer node:</p><ul><li>at pin 18, supplies the bulb housed inside the boot courtesy
+              light <strong>G040;</strong></li><li>at pin 5, receives the negative signal (with reference
+              to earth <strong>C030) indicating the opening of the tailgate, coming
+              from the switch on the exterior handle I033;</strong></li><li>at pin 13, receives the signal (with reference to earth <strong>C030)
+              indicating the incomplete closing of the tailgate, coming from the
+              exterior handle switch I033.</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Earth C020 is fastened to the
+              floor of the passenger compartment and is located near the right
+              front wheel arch (footwell area). Earth C030 is fastened to the
+              left rear wheel arch (passenger compartment interior).</p></aside><p>The opening of any of the doors (front or
+              rear) or the tailgate is displayed by the relevant warning light
+              in the instrument panel 
+                              <strong>E050.</strong>
+                                The command to switch the
+              warning light on is supplied via the CAN by the body computer node 
+              
+                              <strong>See E1050  CAN CONNECTION LINES</strong>
+                               .
+              The status of the doors is only signalled in the instrument panel
+              when the ignition is on.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

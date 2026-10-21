@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E4080 TRIP COMPUTER - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.2 8v; all production periods; only with equipment: Smart gearbox. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E40 Instrument panel &gt; E4080 TRIP COMPUTER &gt; E4080 TRIP COMPUTER - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751518.html">E40 Instrument panel</a> › <a href="2751535.html">E4080 TRIP COMPUTER</a> › <span>E4080 TRIP COMPUTER - Functional description</span></nav>
+<h1><span class="code">E4080</span> TRIP COMPUTER - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E40 Instrument panel &gt; E4080 TRIP COMPUTER &gt; E4080 TRIP COMPUTER - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.2 8v; all production periods; only with equipment: Smart gearbox</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753534">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753534</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.2 8v; all production periods; only with equipment: Smart gearbox</p><h3>Functional description</h3><p>All the information for the &#x27;Trip computer&#x27;
+              function is displayed on the LCD display contained in the instrument
+              panel 
+                              <strong>E050.</strong></p><p>The body computer node 
+                              <strong>M001 provides
+              the instrument panel with the ignition-dependent supply (pin 3 connector
+              N) and direct battery supply (pin 1 connector N).</strong></p><p>All the useful information for managing
+              the &#x27;trip computer&#x27; function is transmitted via CAN from the body
+              computer node 
+                              <strong>M001 (pins 35, 36 connector I) to the instrument panel
+              E050 (pins 7, 8 connector A).</strong></p><p>The signals transmitted from the body computer node are:</p><ul><li>fuel level, supplied by the electric pump <strong>N040 (pins
+              1, 2);</strong></li><li>vehicle speed signal (supplied by the braking system control
+              unit <strong>M051 
+                                     See E7023  ESP 
+                                     );</strong></li><li>engine rpm signal, supplied by the engine control unit <strong>M010
+              via the CAN network to the body computer node 
+                                     See E5030  PETROL ENGINE ELECTRONIC MANAGEMENT 
+                                     .</strong></li></ul><p>The TRIP electronic module uses these signals
+              to process instantaneous and average fuel consumption information,
+              range, average speed, mileage, duration etc.</p><p>Via the key located on the steering column
+              switch unit 
+                              <strong>H005, the negative signal is sent (referred to earth
+              C020 connector B) for the change of menu in the display of the trip computer
+              information.</strong></p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Earth C020 is located on the passenger
+              compartment floor and located near the right front wheel arch (footwell).</p></aside></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

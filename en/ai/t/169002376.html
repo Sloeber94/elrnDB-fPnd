@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2020 DIRECTION INDICATORS/HAZARD WARNING LIGHTS - FUNCTIONAL DESCRIPTION · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.3 JTD 16v; all production periods; only with equipment: SUV. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 INTERIOR LIGHTING &gt; E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS &gt; E2020 DIRECTION INDICATORS/HAZARD WARNING LIGHTS - FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="169002283.html">E20 INTERIOR LIGHTING</a> › <a href="169002062.html">E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS</a> › <span>E2020 DIRECTION INDICATORS/HAZARD WARNING LIGHTS - FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E2020</span> DIRECTION INDICATORS/HAZARD WARNING LIGHTS - FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E20 INTERIOR LIGHTING &gt; E2020 DIRECTION INDICATORS / HAZARD WARNING LIGHTS &gt; E2020 DIRECTION INDICATORS/HAZARD WARNING LIGHTS - FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.3 JTD 16v; all production periods; only with equipment: SUV</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/169002376">https://sloeber94.github.io/elrnDB-fPnd/en/#/169002376</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.3 JTD 16v; all production periods; only with equipment: SUV</p><h2>Operational description</h2><p>The command to switch on the direction indicators is sent from the steering column switch unit <strong>H005</strong> by turning switch A to position 1 (left side direction indicator) or position 2 (right side direction indicator).</p><p>The body computer node M001:</p><ul><li>receives the negative signal (with reference to the earth <strong>C020</strong> connector B) at pin 8 (left side) or at pin 9 (right side) connector P.</li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Earth C020 is secured to the passenger compartment floor and is positioned near the right front wheel arch (footwell area).</p></aside><p>Having received the signal, the direction indicators are switched on:</p><ul><li>from pins 10 and 11 connector C supplies the front direction indicators F018 and F019;</li><li>from pins 15 and 18 connector F supplies the direction indicators housed in the rear light clusters <strong>F030</strong> A and <strong>F031 A</strong></li><li>from pins 16 and 17 connector F supplies the direction indicators housed in the side repeaters <strong>F020</strong> and <strong>F021</strong></li></ul><p>The rear light clusters <strong>F030</strong> A and <strong>F031</strong> A and the left side direction indicator <strong>F020</strong> refer to earth <strong>C030</strong> fastened to the left rear wheel arch (passenger compartment interior).</p><p>The hazard warning lights are switched on via the special button located in the control panel <strong>H090</strong>.</p><p>The body computer node M001:</p><ul><li>receives the negative signal (with reference to earth <strong>C020</strong> connector B) at pin 4 connector P;</li><li>from pins 10 and 11 connector C supplies the front direction indicators F018 and F019;</li><li>from pins 15 and 18 connector F supplies the direction indicators housed in the rear light clusters <strong>F030</strong> A and <strong>F031 B</strong></li><li>from pins 16 and 17 connector F supplies the direction indicators housed in the side repeaters <strong>F020</strong> and <strong>F021</strong></li><li>from pin 3 connector P manages the intermittent operation of the LED for visually signalling the activation of the hazard warning lights integrated in the control panel <strong>H090</strong>.</li></ul><p>The body computer node monitors the correct operation of the lights system signalling any failure by switching on the &quot;lights failure&quot; warning light in the instrument panel E050 in the following circumstances:</p><ul><li>open load;</li><li>short circuit to earth;</li><li>short circuit to + battery.</li></ul><p>The body computer communicates, from pins 35, 36 connector I, via the CAN, with the instrument panel <strong>E050</strong> (for more details</p><p><a href="169001995.html">See E1050 CAN CONNECTION LINES</a></p><p>), controlling the switching on of the warning lights.</p></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="169001995.html">E1050 CAN CONNECTION LINES</a> <span class="meta">chapter (index of subtopics) · engines: 1.2 8v, 1.3 JTD 16v; all production periods; only with equipment: Smart gearbox</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

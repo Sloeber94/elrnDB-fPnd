@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E6021 COMPRESSOR ENGAGEMENT - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.3 JTD 16v; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E60 Climate control system &gt; E6021 COMPRESSOR ENGAGEMENT &gt; E6021 COMPRESSOR ENGAGEMENT - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751592.html">E60 Climate control system</a> › <a href="2751621.html">E6021 COMPRESSOR ENGAGEMENT</a> › <span>E6021 COMPRESSOR ENGAGEMENT - Functional description</span></nav>
+<h1><span class="code">E6021</span> COMPRESSOR ENGAGEMENT - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E60 Climate control system &gt; E6021 COMPRESSOR ENGAGEMENT &gt; E6021 COMPRESSOR ENGAGEMENT - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.3 JTD 16v; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753555">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753555</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.3 JTD 16v; all production periods</p><h3>Functional description</h3><p>The engine control unit 
+                              <strong>M010 receives
+              at pin 28 connector B, the request to switch on the compressor 
+              
+                                 See
+		E6020
+		AIR CONDITIONING
+                                  .</strong></p><p>After receiving the request, the engine control unit:</p><ul><li>from pin 80 connector B, sends a negative signal to the
+              coil of the relay T09, which provides the direct battery supply
+              to the relay T05;</li><li>from pin 79 connector B, sends a negative signal to the
+              coil of the relay T05, which supplies the compressor <strong>L020.</strong></li></ul><p>The two relays, T05 and T09, are connected
+              &#x27;in cascade&#x27;; the relay T09 provides the direct battery supply to
+              T05, and operates with the ignition-dependent supply (INT/A). The operation
+              of both is interrupted during engine starting (key at START position).</p><p>The engine control unit 
+                              <strong>M010 interrupts
+              compressor operation depending on the signal it receives as input,
+              at pin 87 connector B, from the linear sensor K120.</strong>
+                                The sensor
+              receives a supply and earth reference from pins 37 and 10 connector
+              B of the engine management control unit 
+                              <strong>M010.</strong></p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

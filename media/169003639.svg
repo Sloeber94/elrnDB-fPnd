@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="199.425" height="114.386" viewBox="0 0 199.425 114.386" overflow="visible" enable-background="new 0 0 199.425 114.386"
+	 xml:space="preserve">
+	
+		<g id="Livello_1">
+			<rect x="0.5" y="0.5" fill="#FFFFFF" stroke="#FFFFFF" width="198.425" height="113.386"/> 
+			<rect x="86.9" y="38.883" fill="none" stroke="#000000" width="26.102" height="42.404"/> 
+			<rect x="90.078" y="39.175" fill="none" stroke="#000000" width="20.281" height="13.875"/> 
+			<g>
+				<rect x="91.679" y="33.256" fill="none" stroke="#000000" width="17.078" height="10.286"/> 
+				<line fill="none" stroke="#000000" stroke-width="0.5" x1="91.97" y1="40.922" x2="108.369" y2="40.922"/>
+			</g>
+			<line fill="none" stroke="#000000" x1="94.954" y1="44.027" x2="94.954" y2="53.051"/>
+			<line fill="none" stroke="#000000" x1="105.627" y1="43.736" x2="105.627" y2="52.663"/>
+			<rect x="97.865" y="41.892" fill="none" stroke="#000000" width="4.561" height="10.382"/> 
+			<rect x="90.2" y="55.615" fill="none" stroke="#000000" width="9.315" height="18.243"/> 
+			<rect x="100.879" y="55.616" fill="none" stroke="#000000" width="9.315" height="18.242"/> 
+			<g>
+				<path d="M97.717,67.19v1.531h-5.766c0.063-0.58,0.249-1.129,0.561-1.648s0.927-1.207,1.847-2.065
+					c0.74-0.693,1.194-1.163,1.362-1.411c0.226-0.34,0.339-0.678,0.339-1.01c0-0.369-0.099-0.652-0.297-0.85
+					s-0.472-0.297-0.822-0.297c-0.346,0-0.62,0.104-0.824,0.311c-0.204,0.208-0.322,0.553-0.354,1.033l-1.641-0.164
+					c0.098-0.905,0.405-1.555,0.922-1.948s1.164-0.591,1.939-0.591c0.85,0,1.518,0.229,2.004,0.688
+					c0.485,0.457,0.729,1.027,0.729,1.708c0,0.388-0.069,0.756-0.208,1.106c-0.138,0.351-0.357,0.717-0.658,1.101
+					c-0.199,0.255-0.559,0.62-1.08,1.098s-0.851,0.795-0.99,0.951c-0.138,0.157-0.25,0.31-0.336,0.458H97.717z"/>
+			</g>
+			<g>
+				<path d="M106.756,68.722h-1.641V62.5c-0.601,0.565-1.31,0.982-2.125,1.253v-1.5c0.429-0.141,0.895-0.406,1.397-0.799
+					s0.848-0.85,1.035-1.373h1.333V68.722z"/>
+			</g>
+		</g>
+	</svg>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7051 ROBOTIZED GEARBOX - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.2 8v; all production periods; only with equipment: Smart gearbox. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7051 ROBOTIZED GEARBOX &gt; E7051 ROBOTIZED GEARBOX - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751625.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="169002474.html">E7051 ROBOTIZED GEARBOX</a> › <span>E7051 ROBOTIZED GEARBOX - Functional description</span></nav>
+<h1><span class="code">E7051</span> ROBOTIZED GEARBOX - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7051 ROBOTIZED GEARBOX &gt; E7051 ROBOTIZED GEARBOX - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.2 8v; all production periods; only with equipment: Smart gearbox</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753562">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753562</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.2 8v; all production periods; only with equipment: Smart gearbox</p><h3>Functional description</h3><p>The Selespeed gearbox control unit M054:</p><ul><li>at pin 27 connector A receives the direct battery supply
+              from the line protected by fuse F32;</li><li>at pin 28 connector A receives the ignition-controlled
+              supply, from the line protected by fuse F16;</li><li>at pin 1, 2, is connected to earth <strong>C011.</strong></li></ul><p>During the engine starting stage, the control
+              unit 
+                              <strong>M054 sends a negative signal from pin 42 connector A to
+              the coil for relay T20, housed in the engine compartment junction
+              unit B001.</strong>
+                                The relay, when energized, closes its internal contact,
+              supplying the starter motor 
+                              <strong>A020 (for more details see 
+              
+                                 SeeE5010STARTING AND RECHARING
+                                  ).</strong>
+                               
+              At pin 76 connector B the Selespeed control unit receives the engine
+              starting signal (+50) supplied by the ignition switch 
+                              <strong>H001.</strong></p><p>Starting is only permitted if the Selespeed control unit:</p><ul><li>at pin 74 connector B receives the &#x27;lever in neutral&#x27;
+              signal provided by the gear controls unit <strong>H037;</strong></li><li>at pin 69 connector B receives the brake pedal pressed
+              signal, supplied by the N.A. circuit coming from the brake pedal
+              switch <strong>I030 (see wiring diagram 
+                                     See E7023  ESP 
+                                     ).</strong></li></ul><p>If the vehicle is stationary, with a gear
+              engaged, if the Selespeed control unit receives the driver&#x27;s door
+              open signal at pin 78 connector B, the system automatically engages
+              neutral.</p><p>The Selespeed control unit receives gear
+              increase signals (pin 26 connector A) and gear decrease signals
+              (pin 68 connector B) via the gear controls unit 
+                              <strong>H037.</strong>
+                                The
+              gears control unit receives an ignition-controlled supply at pin
+              6 and an earth reference at pin 1 (the earth reference is supplied
+              by the Selespeed control unit from pin 65 connector B).</p><p>The shift to AUTO mode takes place via the
+              robotized gearbox AUTO function swithc 
+                              <strong>H034.</strong>
+                                The signal
+              (referred to earth 
+                              <strong>C011) is sent to pin 77 connector B of control
+              unit M054.</strong>
+                                The latter, depending on the engine rpm supplied
+              by the engine management control unit 
+                              <strong>M010 (pin 63 connector
+              B) at pin 48 connector A makes provision for the gears at the automatic
+              transmission.</strong></p><p>From pin 31 connector A, the Selespeed gearbox
+              control unit 
+                              <strong>M054 controls the engagement of the Selespeed gearbox
+              oil pump N047, whose supply is controlled by a specific relay located
+              inside the engine compartment junction unit B001.</strong></p><p>Control unit M054:</p><ul><li>from pins 32, 44 connector A controls the gear engagement
+              solenoid valves <strong>L051 and L052;</strong></li><li>from pin 29 connector A it controls the gear selection
+              solenoid valve <strong>L053;</strong></li><li>from pin 43 connector A it controls the clutch control
+              solenoid valve <strong>L056;</strong></li><li>from pins 79, 59 connector B it provides the supply and
+              earth reference, respectively, for the clutch position potentiometer <strong>K095 which sends its own signal to pin 52 connector A of the
+              control unit;</strong></li><li>from pins 73, 66 connector B it provides the supply and
+              earth reference, respectively, for the pressure sensor on the gearbox <strong>K096, the gear engagement potentiometer K069 and the gear selection
+              potentiometer K068;</strong></li><li>at pin 40 connector A receives the signal from the pressure
+              sensor on the gearbox <strong>K096;</strong></li><li>at pin 39 connector A receives the signal from the gear
+              engagement potentiometer <strong>K069;</strong></li><li>at pin 51 connector A receives the signal from the gear
+              selector <strong>K068;</strong></li><li>at pin 38 it provides the supply for the gearbox output
+              speed sensor <strong>K077;</strong></li><li>at pin 50 it receives the signal from the gearbox output
+              speed sensor <strong>K077.</strong></li></ul><p>The buzzer in the instrument panel 
+                              <strong>E050
+              is activated, from pin 80 connector B, by control unit M054 if there
+              are problems or faulty operation caused by the driver.</strong></p><p>System problems are indicated by the warning
+              light in the instrument panel coming on; the signal is sent via
+              the C CAN to the body computer node M001 which controls the instrument
+              panel E050 via the B CAN (for more details 
+                              <a href="2751520.html">E4010 INSTRUMENT PANEL - Description</a>
+                               ).</p><p>The Selespeed control unit 
+                              <strong>M054 also
+              has an autodiagnostic function sending its own data from pin 49
+              connector A to the diagnostic coupling R010 (for more details see 
+              
+                                 SeeE8010DIAGNOSTIC MULTIPLE CONNECTOR
+                                  ).</strong></p><p>The Selespeed control unit communicates
+              via the C CAN from pins 7, 19, 33, 45 connector A (see wiring diagram 
+              
+                              <strong>See E1050  CAN CONNECTION LINES</strong>
+                               ).</p></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="2751520.html">E4010 INSTRUMENT PANEL - Description</a> <span class="meta">system description · engines: 1.1, 1.2 8v; all production periods</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

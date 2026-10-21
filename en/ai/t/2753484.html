@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Introduction - ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS · Fiat PANDA</title>
+<meta name="description" content="system description. all engines; all production periods. Descriptions &gt; 55 ELECTRICAL EQUIPMENT &gt; 5505 ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS &gt; Introduction - ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2750874.html">Descriptions</a> › <a href="2750955.html">55 ELECTRICAL EQUIPMENT</a> › <a href="2750956.html">5505 ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS</a> › <span>Introduction - ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS</span></nav>
+<h1>Introduction - ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Descriptions &gt; 55 ELECTRICAL EQUIPMENT &gt; 5505 ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS &gt; Introduction - ELECTRICAL CIRCUIT FOR INSTRUMENTS/INDICATORS</dd>
+<dt>Kind</dt><dd>system description</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753484">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753484</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>GENERAL CHARACTERISTICS</h2><p>In conventional electrical systems,
+functions are activated with the aid of dedicated point-to-point
+connections.</p><p>As the number of eletrical/electronic devices
+on board new vehicles has increased, the connection are becoming
+more complex and heavy. One reason for this is the complexity of
+functions implemented in the many electronic units, which require
+a continual interchange of data. All this makes it more difficult
+to install new electrical systems and increases the complexity of
+fault diagnosis.</p><p>Many problems have been resolved and new
+electrical systems have been optimised compared to conventional
+systems by means of networking. This provides a more effective means
+of managing communication on board the car and for the transfer
+of information between subsystems via the serial buses present:
+single wires, pairs of twisted wires or even optical fibres. We
+shall now see how the move from conventional systems to those known
+as multiplexing has taken place.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>CLASSIC SOLUTION</h3><p>The four control units in the
+diagram below require a number (N) of wires for each input/output
+in order to perform their function. This has created so much wiring
+that the system is more complex (design and manufacture), more bulky
+(weight, bulk and cost) and requires some 40 kg of wiring harnesses
+amounting to a length of more than 2 km. This requirement is likely
+to double every 10 years because even now one such vehicle may be
+equipped with 20 to 40 control units (ECUs).</p><figure class="photo"><img class="zoomable" src="../../../media/2045529.jpg" alt="" loading="lazy"></figure><p>1 - Climate control node
+	2 - Engine management node
+	3 - Engine temperature sensor (for engine management node)
+	4 - Instrument panel node
+	5 - Engine temperature sensor (for instrument panel warning light)
+	6 - Engine cooling fan
+	7 - Engine temperature bulb</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>CLASSIC SOLUTION</h3><p>The first step that allowed us
+to reduce the volume and the complexity of the wiring harnesses
+was to group several electronic functions in a single unit: FEWER
+COMPONENTS = FEWER WIRES.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>EXAMPLES OF INTEGRATION</h3><p>The multi-function control unit
+manages: central locking, electric windows, courtesy light timer,
+heated rear windscreen timer and heated, exterior rear view mirrors.</p><figure class="photo"><img class="zoomable" src="../../../media/2045530.jpg" alt="" loading="lazy"></figure><p>1 - Multifunction control unit
+	2 - Central locking
+	3 - Electric window control unit
+	4 - Centre courtesy light
+	5 - Rear courtesy light
+	6 - Heated rear windscreen / heated door mirrors</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>EXAMPLES OF INTEGRATION</h3><p>The integration of electrical/electronic functions in a single unit has allowed us to improve:</p><ul><li>the management of current consumption</li><li>the functionality of appliances because they are managed
+by a single control unit;</li><li>the fault diagnosis using control unit self-diagnosis</li></ul><p>This first stage has allowed us to reduce
+the number of electronic units but not to reduce the volume of wiring
+harnesses sufficiently.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>MULTIPLEXING SOLUTION</h3><p>This solution has made it possible
+to reduce the volume of cable looms and to considerably improve
+the transmission of information between the various electronic units.</p><p>These transmissions take place through a
+BUS channel consisting of 2 cables (the main one already used for
+the telephone, radio, television network etc.)</p><figure class="photo"><img class="zoomable" src="../../../media/2045531.jpg" alt="" loading="lazy"></figure><p>A - B - C: NODES (CONTROL UNITS)
+	D: MASTER CONTROL UNIT OR BODY COMPUTER
+	A1 - A2, B1 - B2, C1 - C2: COMMUNICATION BUS</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>MULTIPLEXING SOLUTION</h3><p>In addition to simplifying the
+wiring and improving communication between the electronic units,
+the multiplexing solution also makes it possible to reduce the number
+of sensors (INFORMATION SHARING)</p><figure class="photo"><img class="zoomable" src="../../../media/2045532.jpg" alt="" loading="lazy"></figure><p>A - Classic solution
+	B - Multiplexing solution
+	1 - Climate control node
+	2 - Engine management node
+	3 - Engine temperature sensor (for engine management node)
+	4 - Instrument panel node
+	5 - Engine temperature sensor (for instrument panel warning light)
+	6 - Engine cooling fan
+	7 - Engine temperature bulb
+	8 - Instrument panel node
+	9 - Climate control node
+	10 - Engine temperature information
+	11 - Body Computer node
+	12 - Engine management node
+	13 - Engine temperature sensor (for engine management node)</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>MULTIPLEXING SOLUTION</h3><p>In general, in order to send data via multiplexing, we need to define the following:</p><ul><li>(A) THE TRANSMISSION CHANNEL (electric cables, optical
+fibres, radio waves, etc.)</li><li>(B) THE TYPE OF SIGNAL (voltage, current, light, etc.)</li><li>(B) THE COMMUNICATION PROTOCOL (all the rules that allow
+management of analogue or digital transmission management,  code
+type, address, transmission order, error recording etc.).</li></ul><p>On this model, the transmission channel
+(A) is a pair of electrical wires known as a BUS.</p><p>The type of signal (B) is VOLTAGE and the
+communication protocol (C) is the CAN (Controller Area Network)
+developed by BOSCH.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>N.I.C.E. architecture</h2><p>The &#x27;N.I.C.E.&#x27; system (Network
+Integration Component Electronics)has been designed for the optimum
+management of the vehicle&#x27;s electrical and electronic functions.</p><p>The system interacts with all the electrical
+system functions, directly cotnrolling the so-called bodywork functions
+(visibility, access, on board information, comfort, telematics,
+etc.) and supporting the exchange of data between the traction control
+systems (engine, braking, gearbox, etc.).</p><p>For excellent performance each control unit
+(electronic or electro-mechanical) is located in a central position
+in relation to the functions which it manages. This allows minimisation
+of the power and signal distribution system through the extensive use
+of serial communication networks, with advantages when solving the
+problems of size, reliability, weight and cost.</p><p>The distribution of power takes place via
+the junction units and/or fuse boxes, connected to the control elements
+(relays and static actuators) in order to ensure the maximum level
+of electrical protection and the minimum degree of wiring complexity .</p><p>The ultrasound weld spots inside the vehicle
+wiring have been eliminated and replaced with short circuiting connections.</p><p>Systems such as the N.I.C.E. system offers countless advantages such as, for example:</p><ul><li>the sensors in the various subsystems are made available
+to the network in order to be shared eliminating the presence of
+similar sensors</li><li>new functions can only be added by modifying the software
+(developed during the vehicle life),</li><li>wiring design is simplified and the number of connectors
+is reduced,</li><li>electronic device operating safety is increased to improve
+the reliability of information transmited,</li><li>an integrated diagnostic function simplifies service
+operations on electric/electronic components.</li></ul><p>The structure consists of two CAN communication
+networks that connect nodes belonging to three different areas (dynamic control
+of the vehicle and bodywork functions) and a certain number of complementary
+serial lines/</p><p>The N.I.C.E. system used for the basic version
+of the Fiat Gingo uses low speed CAN serial network for communication between
+nodes. With features such as the VDC and robotised gearbox, a second
+networ is present (high speed) for dynamic vehicle control functions.</p><p>On the Fiat Panda, the system also contains:</p><ul><li>1 SERIAL LINE W for immobilizer recovery</li><li>1 K SERIAL LINE for the fault diagnosis of several NODES
+/ CONTROL UNITS</li><li>1 F SERIAL LINE for brake system status</li><li>1 Serial line known as A - BUS</li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>NODES refer to all the electrical
+/ electronic devices and control units which contain a specific
+interface (NETWORK INTERFACE) which makes it possible to transmit
+and receive data, information and signals which travel through CAN
+networks.</p></aside><p>Below is a table containing all the elements
+(nodes/control units/devices) which make up the N.I.C.E. structure
+giving the most complete configuration for the Fiat Panda.</p><p>N.I.C.E. system components</p><div class="table"><table><tr><th><p>CAB</p></th><th colspan="1"><p>Air bag control unit</p></th></tr><tr><td><p>CDC</p></td><td colspan="1"><p>CD-Changer</p></td></tr><tr><td><p>CAV</p></td><td colspan="1"><p>Volumetric Alarm Control Unit</p></td></tr><tr><td><p>CPP</p></td><td colspan="1"><p>Tyre Pressure Control Unit</p></td></tr><tr><td><p>CSA</p></td><td colspan="1"><p>Anti-theft Alarm Control Unit</p></td></tr><tr><td><p>DSP</p></td><td colspan="1"><p>HiFi audio amplifier</p></td></tr><tr><td><p>CSP</p></td><td colspan="1"><p>Rain Sensor Control Unit</p></td></tr><tr><td><p>NPL/NBC</p></td><td colspan="1"><p>Facia Node/Body Computer Node</p></td></tr><tr><td><p>NCR</p></td><td colspan="1"><p>Robotized/Automatic Gearbox Node</p></td></tr><tr><td><p>NCL</p></td><td colspan="1"><p>Climate Control Node</p></td></tr><tr><td><p>NCM</p></td><td colspan="1"><p>Engine Control Node</p></td></tr><tr><td><p>NFR</p></td><td colspan="1"><p>Braking System Node</p></td></tr><tr><td><p>NGE</p></td><td colspan="1"><p>Electrical steering node</p></td></tr><tr><td><p>NRR/NIT</p></td><td colspan="1"><p>Radio Set NodeInfotelematic Node</p></td></tr><tr><td><p>NQS</p></td><td colspan="1"><p>Instrument panel node</p></td></tr><tr><td><p>CPA</p></td><td colspan="1"><p>Parking Sensor Node</p></td></tr></table></div><p>The electrical protections (fuses) are all
+grouped in the power distribution unit, positioned in the engine
+bay and facia.</p><p>The two C-CAN and B-CAN networks are physically separate from one another, but both meet at the BODY COMPUTER NODE; the latter, which is considered the MASTER node for the two networks, contains a GATEWAY function which allows the transfer of information/dat from one network to the other, even if the two networks are operating at different speeds:</p><ul><li>B-CAN NETWORK transmission speed = 50 Kbit/sec.</li><li>C-CAN NETWORK transmission speed = 500 Kbit/sec.</li></ul><p>Below is a diagram summarizing the structure
+of the N.I.C.E. system variants used on the different specification
+levels.</p><p>Basic trim level</p><figure class="photo"><img class="zoomable" src="../../../media/2045533.jpg" alt="" loading="lazy"></figure></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>N.I.C.E. architecture</h2><p>Top of the range trim level</p><figure class="photo"><img class="zoomable" src="../../../media/2045534.jpg" alt="" loading="lazy"></figure></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>N.I.C.E. architecture</h2><p>Refer to the previous table for
+a description of the nodes.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>B-CAN NETWORK CONNECTION</h3><p>The B - CAN network (low speed)
+on the Fiat Panda consists of 2 electrical cables, one White/Pink
+shown in the wiring diagram as a CAN - A cable and one Black/Pink
+one shown in the wiring diagram as a CAN - B cable.</p><p>The transmission of information through
+this pair of cables takes place through the transmission of 2 voltage
+levels (V), one High and one Low associated with the CAN - A cable
+and the CAN - B cables, respectively. the mathematical difference between
+these two levels produces two voltage values associated with two
+logic levels, 0 or 1.</p><p>The latter constitute the basic information
+unit known as BIT (binary digit) and, suitably combined, they make
+up the information to be transmitted.</p><figure class="photo"><img class="zoomable" src="../../../media/2045535.jpg" alt="" loading="lazy"></figure></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>B-CAN NETWORK CONNECTION</h3><p>V Can A - V Can B = 3.6 - 1.4
+= + 2.2 V (bit 0)</p><p>V Can A - V Can B = 0.2 - 4.8 = - 4.6 V
+(bit 1)</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>C-CAN NETWORK CONNECTION</h3><p>The C - CAN network (high speed)
+on the Fiat Panda consists of two twisted electrical cables, one
+Green, shown in the wiring diagram as the CAN - H cable and one
+Brown, shown in the wiring diagram as the CAN - L cable.</p><p>The transmission of information is the same
+as that for the B - CAN network. in this case the High voltage level
+is associated with the C-CAN - H cable and the Low voltage level
+with the C-CAN - L cable.</p><p>The mathematical difference for these two
+voltage levels for the C - CAN network also gives rise to two logic
+levels, 0 and 1, but with one difference illustrated in the diagram:</p><figure class="photo"><img class="zoomable" src="../../../media/2045536.jpg" alt="" loading="lazy"></figure></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>C-CAN NETWORK CONNECTION</h3><p>The network interface cannot communicate at all if one of the following situations arises in the C-CAN:</p><ul><li>Break in one of the two CAN cables (H and L)</li><li>Short circuit between the two CAN cables (H and L)</li><li>Short circuit of the CAN - H cable or the CAN - L cable
+to +Vbatt.</li><li>Short circuit of the CAN - H cable of the CAN - L cable
+to earth.</li></ul></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>PRIORITIES IN THE CASE OF A TRANSMISSION CONFLICT
+FOR SEVERAL NODES</h3><p>The protocol for the N.I.C.E.
+system can deal with problems of superimposition when several nodes
+wish to issue a frame simultaneously. A node sending a lower priority
+message interrupts its transmission immediately to make way for
+the node transmitting a higher priority signal. In practice, the
+higher priority message is sent via the network without any interruption or
+delay.</p><p>The frame with the highest priority gains
+the possibility of being transmitted through the BUS; a dominant
+level (0) always overcomes a recessive level (1).</p><p>Simultaneous access of several control units
+to the network may give rise to conflict on the C-CAN line (BUS)
+the diagram shows that the engine control unit node (NCM) and the
+brake system control unit (NFR) send identical frames (data packages)
+up to point (D); from point (E) the two frames have a discordant
+bit.</p><p>Because the NFR node is simultaneously checking
+(reading) the frame as well as transmitting it, from this moment
+on as soon as the NFR node realises that the bit it wishes tot transmit
+(1) of recessive value will come up against a bit (0) of dominant
+value in the network, it immediately interrupts transmission of
+its frame (loss of arbitrage) to give way to the NCM node, which
+is transmitting a higher priority frame. It stands by until the
+NCM node has finished transmitting and the line becomes free. The
+frame transmitted along the network is from the NCM node. The NFR
+may now re-attempt to gain access to the line to send the frame
+it tried to send previously. Provided another collision does not
+occur.</p><figure class="photo"><img class="zoomable" src="../../../media/2045537.jpg" alt="" loading="lazy"></figure><p>1 -  NCM begins transmitting
+	2 - NFR begins transmitting (at the same time as the NCM transmission)
+	3 - Final outcome of transmission</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>A-BUS LINE CONNECTION</h3><p>The A - BUS serial line is designed
+to guarantee the exchange of information / commands between the
+various electronic control units. The A-Bus connection leads are
+pink-red.</p><p>On the Fiat Panda, these control units are:</p><ul><li>Tyre pressure control unit (CPP)</li><li>Volume-sensing alarm control unit (CAV)</li><li>Rain Sensor Control Unit (CSP)</li><li>Anti-theft alarm control unit (CSA)</li><li>Facia Node (NPL)</li></ul><p>The A-BUS transmission speed is 4.8 kbits/sec.</p><p>Communication at the A - BUS takes place
+through the exchange of data packages between the different control
+units.</p><p>Each control unit connected to the A - BUS
+has its own electronic address; when one control unit has to send
+a command / information to another control unit, it must always
+enter the address of the destination control unit in the data package.</p><p>Transmission always takes place from a transmitting
+control unit to a receiving control unit (one-way).</p><p>When the data reception is complete, the
+receiving control unit should send the outcome to the transmitting
+control unit, thereby ending the data package exchange.</p><p>Unlike the CAN NETWORKS, the transmission
+priorities at the A - BUS are assigned to each control unit and
+not to the information to be transmitted, therefore the control
+unit access sequence in the case of a transmission conflict is decided
+at the design stage.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>LINE K CONNECTION</h3><p>All electronic control unit K
+lines run into the EOBD 16-way connector built into the Passenger
+ Compartment Cable Box. The Body Computer Node (hereafter referred
+to as the Facia Node (NPL) contans a seial line (W) with an NCM
+for immobiliser recovery. The lead is grey-green.</p><p>In tthe Fiat Panda mini N.I.C.E system, the K lines make it possible to carry out the fault diagnosis using the diagnostic equipment for the following Nodes / Control Units:</p><ul><li>Electric steering node (NGE)</li><li>Robotised Gearbox (NCR)</li><li>Engine Management Node (NCM)</li><li>Brake Node (NFR)</li><li>Air Bag Control Unit (CAB)</li><li>Parking Sensor Control Unit (CPA)</li><li>Tyre pressure control unit (CPP)</li><li>Facia Node (NPL)</li></ul></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

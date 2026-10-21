@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2530 INSTRUMENT LIGHTING - Functional description · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E25 Interior lighting &gt; E2530 INSTRUMENT LIGHTING &gt; E2530 INSTRUMENT LIGHTING - Functional description">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="2751447.html">E25 Interior lighting</a> › <a href="2751456.html">E2530 INSTRUMENT LIGHTING</a> › <span>E2530 INSTRUMENT LIGHTING - Functional description</span></nav>
+<h1><span class="code">E2530</span> INSTRUMENT LIGHTING - Functional description</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E25 Interior lighting &gt; E2530 INSTRUMENT LIGHTING &gt; E2530 INSTRUMENT LIGHTING - Functional description</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2753515">https://sloeber94.github.io/elrnDB-fPnd/en/#/2753515</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Functional description</h3><p>The body computer node 
+                              <strong>M001 receives a negative signal (with
+              reference to earth C020 connector B) at pin 2 connector P that the
+              side lights are switched on coming from the steering column switch
+              unit H005 (see wiring diagram E2010).</strong></p><p>Having received the signal, the body computer:</p><ul><li>from pin 9 connector L, sends the &#x27;+lighting&#x27; signal to
+              the short circuiting coupling <strong>D097E, which distributes the signal</strong></li><li>to the radio receiver node <strong>M094, at pin 6 connector
+              A;</strong></li><li>to the cell phone preparation coupling <strong>D075, at pin
+              8;</strong></li><li>to the heater/air conditioning system controls lighting <strong>G045A
+              and G045B.</strong></li><li>the &#x27;+lighting&#x27; signal is sent from pin 7 connector E
+              to the cigar lighter/current socket <strong>P050;</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Earth 
+                                 <strong>C020 is fastened to the
+              passenger compartment floor and is located near the right front
+              wheel arch (footwell area).</strong></p></aside><p>The body computer node communicates that the side lights are switched on via the CAN:</p><ul><li>to the instrument panel <strong>E050, from pins 35, 36, connector
+              I;</strong></li><li>to the climate control system control unit <strong>M070 (for
+              versions with automatic climate control), from pins 3, 8 connector
+              O.</strong></li></ul><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>Coupling 
+                                 <strong>D001 is housed, in
+              the passenger compartment, in the lower part of the right front
+              pillar, near the door cable duct, passenger side.</strong></p></aside><p>Having received the signal that the side
+              lights are on, the instrument panel and the radio receiver node
+              manage the switching on of their own LEDs for lighting up the instruments.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

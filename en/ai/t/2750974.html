@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>5580E anti-theft device · Fiat PANDA</title>
+<meta name="description" content="system description. all engines; all production periods. Descriptions &gt; 55 ELECTRICAL EQUIPMENT &gt; 5580 SPECIAL ACCESSORIES &gt; 5580E anti-theft device">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2750874.html">Descriptions</a> › <a href="2750955.html">55 ELECTRICAL EQUIPMENT</a> › <a href="2750972.html">5580 SPECIAL ACCESSORIES</a> › <span>5580E anti-theft device</span></nav>
+<h1><span class="code">5580E</span> anti-theft device</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Descriptions &gt; 55 ELECTRICAL EQUIPMENT &gt; 5580 SPECIAL ACCESSORIES &gt; 5580E anti-theft device</dd>
+<dt>Kind</dt><dd>system description</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/2750974">https://sloeber94.github.io/elrnDB-fPnd/en/#/2750974</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><p>The cars are equipped with an
+electronic system known as the FIAT CODE that acts as an engine
+immobiliser.</p><p>The FIAT CODE system allows the engine to
+start by means of the Engine NCM only after receiving a secret code
+memorised previously.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>SYSTEM SPECIFICATIONS</h2><p>The second generation Code system
+is built into the Facia Node (NPL).</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><p>The FIAT CODE system comprises 5 basic elements (in addition to the Facia Node which acts as control unit):</p><ul><li>B-Can or C-CAN line (according to the outfits) for communication
+between NPL and NCM</li><li>bidirectional serial line for recovery ( W line)</li><li>two to eight electronic keys containing a transponder
+with a secret code;</li><li>an aerial which reads the code contained in the key
+transponders;</li><li>the NCM for petrol and Diesel engines</li></ul></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>GENERAL</h2><p>The FIAT CODE allows engine control
+management to be commenced by the NCM by coded dialogue between
+the NBC and NCM during the pre-starting stage.</p><p>After the ignition is switched on, the NCM
+sends a request code to the NBC which responds only after recognizing
+(via the aerial) a known electronic key inserted in the ignition
+switch. If the secret code contained in the response is valid, the
+NCM continues with the usual engine control activity, allowing the
+engine to be started.</p><p>The NCM can memorise the secret code only
+by means of a particular procedure.</p><p>The FIAT CODE function is also guaranteed
+in the case of malfunction of the other NBL functions.</p><p>After recognising an enabled transponder,
+the FIAT CODE switches off any alarm system.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>INTERACTION BETWEEN FIAT CODE AND KEY</h2><p>Each key contains a transponder
+with the IDENTIFIER CODE and the SECRET CODE.</p><p>As soon as the ignition is switched on (+15),
+the transponder sends the identifier to the FIAT CODE which, recognising
+it as one of the enabled ones, proceeds with the strategy for recognising
+the SECRET CODE.</p><p>If the identifier is not recognised, the
+procedure aborts, preventing the engine from being started.</p><p>The cryptographic transponder is recognised
+by means of a challenge-response algorithm with exchange of encrypted
+code.</p><p>The code recognition time does not exceed
+160 ms per attempt.</p><p>The FIAT CODE attempts for 1 second to acquire
+the transponder in any case.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>METHOD OF USING C-CAN OR RECOVERY W LINE</h2><p>Communication between the NPL and NCM takes place by default on the CAN line; if the CAN network is faulty, the recovery strategy is as follows:</p><ul><li>C-CAN network faulty</li><li>the NCM passes on to recovery on the W serial line,
+requesting the code from the BCN: if the outcome is positive, starting
+is permitted</li><li>if there are also problems on the W line, after re-transmission
+attempts, the ECN passes on to recovery from the accelerator pedal
+or the diagnostic instrument.</li></ul></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>PROTECTION CODES</h2><p>The FIAT CODE function is implemented
+via the exchange of secret codes between the various subsystems
+(keys, NPL, engine management unit).</p><p>UNIVERSAL CODE: this is the code which the
+LANCIA CODE, not yet programmed, sends to the NCM when it has recognised
+the presence of a transponder in the key.</p><p>The FIAT CODE warning light comes on at
+a frequency of 1.6 Hz and duty cycle of 50%.</p><p>The flashing of the light explains that
+the system is correctly connected and working, but the car is not
+protected by a code.</p><p>IMMO CODE: This is the basic code from which
+the secret code and fix code are obtained. An automatically generated immmo
+code is associated with each car. All the other secret codes used
+by the FIAT CODE function are generated from the immo code.</p><p>SECRET CODE: This is the code resident in
+the transponder. It is memorised in the transponders contained in
+the car keys at the time of programming the transponders, and in
+the FIAT CODE at the time of programming the keys at the end of
+the line.</p><p>FIX CODE: This is memorised in the FIAT
+CODE at the time of end-of-line programming.</p><p>ELECTRONIC CODE (PIN): This is obtained
+from the fix code and is stamped on the CODE CARD which is delivered
+to the car&#x27;s owner; it is a 5-digit decimal code (0 is not permitted).</p><p>It is used to access, in a protected manner,
+the NPL memory in order to re-programme or programme new remote
+control keys and/or carry out particular diagnostic functions.</p><p>It is also used in the procedure of recovery
+from accelerator pedal described in the engine control unit specification.</p><p>IDENTIFIER: It is resident in the transponder
+and is different for each transponder. It is memorised in the FIAT
+CODE during the programming procedure. The FIAT CODE manages a table
+of enabled identifications and one for disabled identifications.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>SPECIFCATIONS</h3><p>The FIAT CODE is an NPL function</p><p>The main functions of the FIAT CODE are:</p><ul><li>to recognise the introduction and rotation of a key
+in the ignition switch (+15);</li><li>to de-activate the alarm (if present) after recognition
+of an enabled key;</li><li>to emit an electromagnetic field to read the key&#x27;s transponder;</li><li>to send the random code to the transponder;</li><li>to receive the cryptographic code emitted by the key;</li><li>to memorise up to 8 identifiers;</li><li>to memorise the secret code;</li><li>to manage a list of a maximum of 8 enabled identifiers;</li><li>to manage a list of at least 16 permanently disabled
+identifiers;</li><li>to manage the CAN line to the engine control unit;</li><li>to manage the lighting up of the warning light on the
+panel by dialoguing with the NQS;</li><li>to carry out self-diagnosis.</li></ul></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>SPECIFICATIONS</h3><p>Toroidal aerial</p><p>Ohm value= 40 Ohm</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>COMPOSITION</h3><p>The aerial assembly consists
+of a toroidal reel aerial with built-in connector on the aerial
+body.</p><p>The connecting wiring to the NPL is integrated
+in the dashboard wiring loom.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>OPERATION</h3><p>The aerial is supplied by the
+NPL to energise the key&#x27;s transponder.</p><p>As the aerial needs to be as close as possible
+to the transponder (for electromagnetic immunity, its small size
+and the limited range of the transponder), it is attached axially
+to the ignition switch.</p><figure class="photo"><img class="zoomable" src="../../../media/2045658.jpg" alt="" loading="lazy"></figure><p>1 - CODE aerial
+	2 - Ignition switch</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>SPECIFICATIONS</h3><p>The mechanical key contains a
+cryptographic transponder in the handle.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>OPERATING</h3><p>When the key is inserted in the
+switch and the ignition is switched on (+15), the transponder is
+energized by the aerial and responds by emitting the secret code
+in a variable and encrypted way.</p><p>The emission into the air has sufficient
+power to have high immunity to electromagnetic interference and
+a range such that it is received by the aerial mounted in the ignition
+switch.</p><p>If the code is recognised as valid, the
+FIAT CODE sends the engine control unit, at the request of the latter,
+a coded signal that allows the engine to be started.</p><p>Up to 8 keys can be programmed in the FIAT
+CODE.</p><aside class="note"><img class="icon" src="../../../media/769.jpg" alt="" loading="lazy"><div class="table"><table><tr><th><figure class="diagram"><img class="zoomable" src="../../../media/2000041.svg" alt="" loading="lazy"></figure></th><th colspan="1"><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The keys are supplied &#x27;already
+programmed&#x27; by the production factory. All the codes are then stored
+in a DATA BASE managed by the PARTS DIVISION. Therefore, when a
+new vehicle is handed over to a customer, the Service Network should
+not carry out any programming procedures. If a key is mislaid or
+additional keys are requested, this request should be passed on
+to the Parts Dept. following the procedures in the &#x27;REPAIR PROCEDURES&#x27;
+section.</p></aside></th></tr><tr><td></td><td colspan="1"></td></tr></table></div></aside></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>SPECIFICATIONS</h3><p>The transponder contained in the key has the following coded in its memory:</p><ul><li>SECRET CODE, the same for each transponder in the same
+key kit;</li><li>IDENTIFIER, different for each transponder produced;</li><li>DATE OF PROGRAMMING the secret code</li></ul><p>The identifier differs from transponder
+to transponder to ensure that, even if duplicates are requested
+on the Network, there are not several transponders with the same
+identifier.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Key programming</h3><p>The storage procedure is divided into two stages in sequence:</p><ul><li>the key transponders are stored in the  FIAT CODE;</li><li>the FIAT CODE manages storage of the fix code in the
+engine management control unit</li></ul><p>This second step is implemented automatically
+when the first is completed successfully at key on.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>supply of key kits</h3><p>Transponders are sent to the
+manufacturer programmed with an identifier (different for each transponder).</p><p>The key manufacturer generates an immo code,
+computes the codes (secret code, fix-code) and programmes the secret
+code and programming date into the key transponders.</p><p>Once they are programmed, it printes a bar
+code onto a disposable label that contains the immo code, the key
+identifiers, the programming date, the key mechanical code and,
+if present, the remote control/alarm codes.</p><p>The secret code in the kit keys is stored
+in the FIAT CODE during the end of line programming procedure. It
+is used in the cryptographic algorithm for key recognition.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Programming a new Facia Node</h3><p>If the Facia Node is replaced,
+the FIAT CODE must be programmed with the secret code and the fix
+code of the car in which it is installed.</p><p>The database is accessed using the chassis
+number and the car immo code is obtained. The secret code and fix-code
+are obtained from this and programmed into the NPL.</p><p>In the case of a new NPL, the enabled and
+disabled identifier tables are  empty.</p><p>Once the NPL has been installed in the car,
+a tester is used to store the key identifiers (see key programming).</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>A FIAT CODE can only be programmed
+for a blank NPL by the Fiat parts dept.</p></aside></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Reprogramming the keys</h3><p>Reprogramming the keys enables
+the keys authorised to start the car to be memorised in the NPL.</p><p>The new keys to be programmed and those
+already programmed will be inserted in the ignition switch to be
+recognised by the LANCIA CODE which will memorise in the table of
+enabled identifiers those presented during the procedure, and will transfer
+from the latter table to the table of disabled identifiers those
+identifiers which have not been presented.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Table of disabled keys</h3><p>If an enabled key is no longer
+available (lost, stolen or no longer working), the subsequent key
+programming procedure (for example necessary for memorising the
+new replacement key) should disable its operation.</p><p>The FIAT CODE therefore manages a table
+in EEPROM which can contain the data relating to 16 disabled keys:
+the identifiers of the enabled keys not presented during the reprogramming
+procedures are transferred into this table.</p><p>If the disabled keys table is full, any
+new key will replace the first key entered on the table.</p><p>This table also permits traceability of
+the keys used on the car.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Key reprogramming prodecure</h3><p>The minimum time for a KEY-ON
+during the storage procedure is 1 seconds.</p><p>The key reprogramming procedure is carried
+out/guided by the Diagnostic/Test Instrument: this procedure is
+activated by access protected by the car&#x27;s PIN.</p><p>Once the procedure is activated, the flow is as follows:</p><ul><li>the diagnostic instrument instructs the NPL to initialize
+the key learning procedure.</li><li>the operator enters the first key and requests learning
+from the NPL: the NPL reads the transponder after Key-on, verifies
+whether the secret code is correct and, if it is, learns the key&#x27;s
+identifier.</li><li>the operator repeats operation 2 for all the car&#x27;s keys.</li><li>once all the keys have been learnt, the diagnostic instrument
+instructs the NBC to memorise them permanently in EEPROM, in accordance
+with the following procedure:</li><li>the NPL compares the learnt identifiers with those currently
+in memory</li><li>the data of the keys memorised in EEPROM but not presented
+during learning, they are moved to the disabled keys table.</li><li>the data of the learnt keys are memorised in the enabled
+keys table only if they are not already present in the disabled keys
+table.</li></ul><p>Up to a maximum of 8 enabled keys can be
+programmed.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>DELETION FROM MEMORY OF A LOST KEY</h3><p>The procedure is the same as
+that described in the previous paragraph. All the keys owned must
+be presented; those not presented will be deleted, i.e. transferred
+into the table of disabled identifiers. A lost key may be deleted
+from memory at any time by a diagnostic/test instrument. The identifier
+of that key is transferred into the disabled keys table and will
+no longer be recognised.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>COMPOSITION</h3><p>This card contains the following:</p><ul><li>The emergency code (electronic code) which allows the
+car to be started with the EXAMINER or another diagnostic instrument
+or, in an emergency, with the accelerator pedal procedure. It is
+also used to programme the keys and remote controls with the EXAMINER.</li><li>The mechanical code of the keys (mechanical code) identifies
+the mechanical profile of the key, and must be specified in the
+order to receive the key already cut.</li></ul><figure class="photo"><img class="zoomable" src="../../../media/2045659.jpg" alt="" loading="lazy"></figure><p>1 - Electronic code
+	2 - Mechanical code</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>OPERATING</h3><p>The &#x27;electronic&#x27; emergency code
+is also used for diagnosis of the system and for other operations
+with the Examiner or another diagnostic instrument. Many of these
+operations (e.g. &#x27;Programming Keys&#x27;) can only be carried out after
+this code has been entered.</p><p>Therefore before any operation, the Customer
+must be asked for the Code Card.</p><aside class="note"><img class="icon" src="../../../media/767.jpg" alt="" loading="lazy"><p>The Code Card should not be left
+in the vehicle in case it is stolen: it should, however, be available
+for the emergency starting procedure described below.</p></aside></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>SPECIFICATIONS</h3><p>The code warning light is located
+on the instrument panel; it is controlled by a message on the B-CAN
+network by the NBC.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>OPERATION</h3><p>With the engine running, the
+diagnostic warning lights should never come on. Strategies are implemented
+to prevent the code warning light coming on falsely in the case
+of +15 at the NPL for t = 5s.</p><p>This warning light enters normal operating
+mode if a code is requested by the NCM.</p><p>When theNCM enters &#x27;Prohibit Engine Management&#x27;
+mode, both warning lights display the event as follows:</p><div class="table"><table><tr><th></th><th><p>EOBD and engine control fault warning light</p></th><th colspan="1"><p>CODE warning light</p></th></tr><tr><td><p>CAN line inactive</p></td><td><p>ON</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>Incorrect code received</p></td><td><p>ON</p></td><td colspan="1"><p>ON</p></td></tr><tr><td><p>Incorrect communication between NPL and NCM</p></td><td><p>ON</p></td><td colspan="1"><p>ON</p></td></tr></table></div></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Immobiliser system status and check on correct communication
+between NPL and NCM.</h3><p>The following table shows 16
+possible immobiliser system statuses based on static parameters.
+parameters are said to be static when their condition remains unchanged
+500 ms after key-on.</p><div class="table"><table><tr><th><p>Ref.</p></th><th><p>NPL</p></th><th><p>NCM</p></th><th><p>Trasponder</p></th><th><p>Can and W lines</p></th><th colspan="1"><p>Starting</p></th></tr><tr><td><p>relay</p></td><td><p>V</p></td><td><p>V</p></td><td><p>OK</p></td><td><p>OK</p></td><td colspan="1"><p>permitted</p></td></tr><tr><td><p>relay</p></td><td><p>V</p></td><td><p>V</p></td><td><p>KO</p></td><td><p>OK</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>3</p></td><td><p>V</p></td><td><p>V</p></td><td><p>OK</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>4</p></td><td><p>V</p></td><td><p>V</p></td><td><p>KO</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>5</p></td><td><p>V</p></td><td><p>M</p></td><td><p>OK</p></td><td><p>OK</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>6</p></td><td><p>V</p></td><td><p>M</p></td><td><p>KO</p></td><td><p>OK</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>7</p></td><td><p>V</p></td><td><p>M</p></td><td><p>OK</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>8</p></td><td><p>V</p></td><td><p>M</p></td><td><p>KO</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>9</p></td><td><p>M</p></td><td><p>V</p></td><td><p>OK</p></td><td><p>OK</p></td><td colspan="1"><p>permitted</p></td></tr><tr><td><p>10</p></td><td><p>M</p></td><td><p>V</p></td><td><p>KO</p></td><td><p>OK</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>11.</p></td><td><p>M</p></td><td><p>V</p></td><td><p>OK</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>12.</p></td><td><p>M</p></td><td><p>V</p></td><td><p>KO</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>13</p></td><td><p>M</p></td><td><p>M</p></td><td><p>OK</p></td><td><p>OK</p></td><td colspan="1"><p>permitted</p></td></tr><tr><td><p>14</p></td><td><p>M</p></td><td><p>M</p></td><td><p>KO</p></td><td><p>OK</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>15</p></td><td><p>M</p></td><td><p>M</p></td><td><p>OK</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr><tr><td><p>16</p></td><td><p>M</p></td><td><p>M</p></td><td><p>KO</p></td><td><p>KO</p></td><td colspan="1"><p>not permitted</p></td></tr></table></div><p>In addition:</p><ul><li>Ref. 17 - The receptiont, by the BCN in VERIFY mode, of
+a delayed key code following a code request made after 500 ms by
+Key ON and which caused the code warning light to come on permanently,
+should cause the light to go out immediately, indicating that the
+system is connected correctly and working, and the car is protected.</li><li>Ref. 18 - Particular blinking modes of the light are
+not required when the BCN is in the &#x27;Diagnosis&#x27; state</li></ul><p>where:</p><ul><li>V = blank</li><li>M = stored</li><li>trasponder OK = trasponder recognised</li></ul><p>If these parameters change, the warning light/symbol will behave as follows:</p><ul><li>with reference to modes 3 and 4 in the table, when communication
+is restored, the code warning light/symbol begins to flash at a
+rate of 1.6 Hz d.c. 50% in mode 1 to indicate that the system is
+properly connected and operational.</li><li>with reference to modes 7 and 8 in the table, when communication
+is restored, the code warning light/symbol begins to flash in mode
+6 to indicate that the system is properly connected but that the
+engine management unit has not recognised the transponder.</li></ul><p>In the case of CAN line OK and Line W faulty,
+the NBC causes the Code Warning light to flash three times as specified
+and then sends the previous blink code.</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>Method of operation and flashing times of CODE warning
+light</h3><p>The NPL  gives the instruction
+to the panel, via the CAN network, to switch on the FIAT CODE warning
+light as shown in the &#x27;code warning light blink modes&#x27; table.</p><p>In accordance with the blink modes (from
+1 to 18) identified in the top table, the code warning light should
+flash as shown in the following table.</p><figure class="photo"><img class="zoomable" src="../../../media/2045660.jpg" alt="" loading="lazy"></figure></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>FAULT DIAGNOSIS</h2><p>The FIAT CODE function permits
+the possibility of carrying out self-diagnosis of the parts which
+make up the system.</p><p>The NPL can identify and memorise in EEPROM
+the presence of the following malfunctions:</p><p>Transponder:</p><ul><li>faulty or absent or with incorrect secret code</li><li>deleted/disabled</li><li>unknown/not memorised</li></ul><p>Transponder aerial:</p><ul><li>faulty electrical connection (open circuit, short circuit
+to earth or to battery)</li></ul></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>ACTIVE DIAGNOSIS</h3><p>By means of commands sent from
+the Tester it is possible to:</p><p>Request current system status identified by:</p><ul><li>last key used and enabled and recognised</li></ul><p>Control CODE warning light activation/deactivation
+on the NQS</p></section><section class="block"><p class="applies">Applies to: all engines; all production periods</p><h3>RECOVERY PROCEDURE BY ACCELERATOR PEDAL</h3><p>Whenever the customer wishes
+to start the engine and has problems with the FIAT CODE, the following
+procedure should be activated.</p><p>The recovery procedure is an emergency procedure
+and allows the user to regain possession of the car if the key has
+been lost or damaged. By &#x27;manual&#x27; entry of a sub-code (EMERGENCY
+CODE).</p><p>The RECOVERY PROCEDURE can only be activated
+after the NCM has entered  &#x27;ENGINE IMMOBILIZED&#x27; status.</p><p>The RECOVERY PROCEDURE by accelerator pedal
+can be repeated a limitless number of times;</p><p>The RECOVERY PROCEDURE by accelerator pedal
+must be carried out fully (5 digits); there will be no message if
+one or more digits of the entered code are incorrect; the only way
+to check whether the code is correct is to complete the procedure
+and try to start the engine; the procedure can nevertheless be interrupted
+by KEY OFF.</p><p>If the accelerator pedal is released before
+a time-out (8 s the first time, 4 s the other times), the CHECK
+ENGINE warning light will not go out and the RECOVERY PROCEDURE
+will be aborted.</p><p>To start the recovery procedure, the user must carry out the following operations in order:</p><ul><li>Read the code on the CODE CARD.</li><li>Turn the key to ON. The diagnosis warning light comes
+on for the self-test;</li><li>Press and hold down the accelerator pedal. The diagnosis
+warning light goes out after 8 s.</li><li>When the diagnosis light goes out, release the accelerator
+pedal.</li><li>After the pedal has been released, the warning light
+will flash at a frequency of 0.8 Hz duty cycle 25% ON. When the warning
+light has come on a number of times equal to the first digit of
+the code, press and hold down the accelerator pedal to allow the
+ECN to recognise it. The diagnosis light will come on and stay on,
+fixed, for 4 s.</li><li>When the diagnosis light goes out, release the accelerator
+pedal.</li><li>After the pedal has been released, the warning light
+will flash at a frequency of 0.8 Hz duty cycle 25% ON. When the warning
+light has come on a number of times equal to the next digit in the
+code, press and hold down the accelerator pedal to allot the ECN
+to recognise it. The diagnosis light will come on and stay on, fixed,
+for 4 s.</li><li>When the diagnosis light goes out, release the accelerator
+pedal.</li><li>Repeat the operations described previously for the next
+digits up until the last.</li><li>After the pedal has been released, when the last digit
+has been recognised, the warning light will flash at a frequency
+of 1.6 Hz duty cycle 25% for 4 s, or will go out sooner. If the
+code is rejected, it will come on in  fixed mode. If the code is accepted,
+start the engine. If the code is refused, repeat the procedure.</li></ul><p>The above diagram shows an example of entering
+a code (i.e. 42173).</p><figure class="photo"><img class="zoomable" src="../../../media/2045661.jpg" alt="" loading="lazy"></figure></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

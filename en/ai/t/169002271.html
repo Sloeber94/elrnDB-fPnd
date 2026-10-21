@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E1050 CAN CONNECTION LINES - FUNCTIONAL DESCRIPTION · Fiat PANDA</title>
+<meta name="description" content="functional description (how the circuit works). engines: 1.2 8v; all production periods; only with equipment: 4x4 and POWERED THROTTLE. Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E10 POWER SUPPLY AND EARTHS &gt; E1050 CAN CONNECTION LINES &gt; E1050 CAN CONNECTION LINES - FUNCTIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Fiat PANDA workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2751381.html">Electrical equipment</a> › <a href="2751382.html">1 ELECTRICAL FUNCTIONS</a> › <a href="169002238.html">E10 POWER SUPPLY AND EARTHS</a> › <a href="169002006.html">E1050 CAN CONNECTION LINES</a> › <span>E1050 CAN CONNECTION LINES - FUNCTIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E1050</span> CAN CONNECTION LINES - FUNCTIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; 1 ELECTRICAL FUNCTIONS &gt; E10 POWER SUPPLY AND EARTHS &gt; E1050 CAN CONNECTION LINES &gt; E1050 CAN CONNECTION LINES - FUNCTIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 1.2 8v; all production periods; only with equipment: 4x4 and POWERED THROTTLE</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-fPnd/en/#/169002271">https://sloeber94.github.io/elrnDB-fPnd/en/#/169002271</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 1.2 8v; all production periods; only with equipment: 4x4 and POWERED THROTTLE</p><h2>Operational Description</h2><p>The electronic control units that communicate via the CAN (B CAN and C CAN) exchange information by means of the body computer node <strong>M001</strong>.</p><p>The body computer node receives a direct battery supply at pin 1 connector A and an ignition-operated supply at pin 1 connector L.</p><p>The body computer node <strong>M001</strong> assumes the role of &quot;information collector&quot; for the information coming from the various nodes, thereby allowing the exchange of data between the B CAN and C CAN.</p><p><em>Connection via B CAN</em></p><p>From connector O, the body computer node receives/sends signals coming:</p><ul><li>from the radio receiver node <strong>M094</strong>, pin 1, 3 connector A;</li><li>from the climate control system control unit <strong>M070</strong>, pin 9, 10 connector B.</li></ul><p>From connector I, the body computer node receives/sends signals coming:</p><ul><li>from the instrument panel <strong>E050</strong>, pin 8, 9 connector A.</li></ul><p>From connector H, the body computer node receives/sends signals</p><ul><li>to the diagnostic socket <strong>R010</strong>, pin 6, 14.</li></ul><p>From connector C, the body computer node receives/sends signals coming:</p><ul><li>from the electric steering control unit <strong>M086</strong>, pin 5, 10 connector B;</li></ul><p><em>Connection via C CAN</em></p><p>The nodes which communicate with one another via the C CAN are:</p><ul><li>body computer node <strong>M001</strong>, from pin 11, 12 connector D;</li><li>the engine management control unit <strong>M010</strong>, from pin 52, 36 connector B;</li><li>ABS control unit <strong>M050</strong> from pins 14, 15, 25, 26;</li></ul><p>Communication between the variousnodes on the C CAN-L line is managed by the short circuit coupling D097 connector G, whilst for the C CAN-H line it is managed by coupling D097 connector H.l</p><p>The two coupling connect the various nodes in such a way that the same information is transmitted to all the nodes connected to the same coupling.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-fPnd/en/">https://sloeber94.github.io/elrnDB-fPnd/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

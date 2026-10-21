@@ -1,0 +1,1 @@
+[[7,1,0,"<p>- Check that the sensor output voltage at pin 2 is between 0.3 and 4.7 V (pins 4 and 5).</p><p>- Check that the power supply at pin 3 is between 4.7 and 5.3 V.</p><p>- Check that there is earth at pin 1.</p><p>Longitudinal acceleration sensor pin out</p><p>Pin 1 - Earth</p><p>Pin 2 - Signal</p><p>Pin 3 - 5 V power supply</p>"]]

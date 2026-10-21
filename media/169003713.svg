@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In . SVG Version: 6.0.0 Build 78)  -->
+
+<svg  xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="198.425" height="85.039" viewBox="0 0 198.425 85.039" overflow="visible" enable-background="new 0 0 198.425 85.039"
+	 xml:space="preserve">
+	
+		<g id="Livello_2">
+			<rect fill="#FFFFFF" width="198.425" height="85.039"/> 
+			<g>
+				<g>
+					<polygon fill="none" stroke="#000000" points="75.465,23.587 75.465,49.294 77.301,49.294 77.301,53.831 109.272,53.831 
+						109.272,49.294 111.109,49.294 111.109,23.587 "/>
+				</g>
+			</g>
+			<rect x="83.674" y="10.842" fill="none" stroke="#000000" width="19.226" height="12.529"/> 
+			<rect x="82.487" y="40.051" fill="none" stroke="#000000" stroke-width="0.5" width="8.842" height="4.937"/> 
+			<rect x="94.792" y="40.051" fill="none" stroke="#000000" stroke-width="0.5" width="8.842" height="4.937"/> 
+			<rect x="84.182" y="25.793" fill="none" stroke="#000000" stroke-width="0.5" width="5.673" height="8.179"/> 
+			<rect x="96.376" y="25.793" fill="none" stroke="#000000" stroke-width="0.5" width="5.674" height="8.179"/> 
+			<g>
+				<path d="M88.001,32.554h-1.094v-4.147c-0.402,0.376-0.876,0.655-1.422,0.835v-1c0.287-0.094,0.598-0.272,0.934-0.535
+					s0.566-0.568,0.691-0.918h0.891V32.554z"/>
+			</g>
+			<g>
+				<path d="M101.196,31.538v1.016h-3.844c0.042-0.387,0.166-0.754,0.373-1.1c0.208-0.346,0.617-0.806,1.229-1.378
+					c0.492-0.463,0.795-0.776,0.906-0.941c0.15-0.228,0.226-0.452,0.226-0.675c0-0.245-0.065-0.435-0.196-0.566
+					s-0.312-0.198-0.542-0.198c-0.228,0-0.409,0.069-0.544,0.206c-0.135,0.138-0.213,0.366-0.233,0.685l-1.094-0.109
+					c0.065-0.602,0.27-1.033,0.613-1.295c0.344-0.262,0.773-0.393,1.289-0.393c0.565,0,1.009,0.153,1.332,0.459
+					s0.484,0.687,0.484,1.142c0,0.259-0.046,0.505-0.139,0.739c-0.092,0.234-0.238,0.479-0.438,0.735
+					c-0.133,0.17-0.373,0.415-0.722,0.733c-0.349,0.319-0.568,0.531-0.661,0.636c-0.092,0.104-0.166,0.206-0.224,0.306H101.196z"/>
+			</g>
+			<line fill="none" stroke="#000000" stroke-width="0.5" x1="82.598" y1="41.186" x2="91.217" y2="41.186"/>
+			<line fill="none" stroke="#000000" stroke-width="0.5" x1="94.981" y1="41.186" x2="103.475" y2="41.186"/>
+		</g>
+	</svg>
